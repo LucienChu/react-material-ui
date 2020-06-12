@@ -6,7 +6,11 @@ import ModalPage from "./components/modalPage/modalPage";
 
 function App() {
   // return <PanelAnimation />;
-  return <ModalPage />;
+  return (
+    <div>
+      <ModalPage />
+    </div>
+  );
 }
 
 export default App;

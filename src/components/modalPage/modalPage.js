@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import LucienModal from "../../cssComponent/panel/lucienModal/lucienModal";
 
 export default function ModalPage() {
+  console.log("modal page called");
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div>
+      <button onClick={() => setOpenModal(true)}>Open</button>
       Elit magna labore in amet commodo et ea consequat ut irure nostrud laboris
       non ex. Reprehenderit ex voluptate adipisicing sint sit. Dolore nisi minim
       eiusmod sit culpa dolor cillum sit commodo reprehenderit. Labore dolore
@@ -419,7 +422,9 @@ export default function ModalPage() {
       consectetur voluptate tempor culpa laboris. Non quis amet aliqua sit amet
       sunt esse in adipisicing eu in culpa. Officia reprehenderit quis deserunt
       eiusmod duis ullamco ipsum aliquip.
-      <LucienModal />
+      <div>
+        <LucienModal open={openModal} onClose={() => setOpenModal(false)} />
+      </div>
     </div>
   );
 }
