@@ -1,28 +1,35 @@
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./lucienModal.module.css";
+import styles from "./lucienModal.module.scss";
 import "prop-types";
-export default function LucienModal(props) {
-  console.log("props.open", props.open);
+export default function LucienModal({ open, color, onClose }) {
   const modalRef = useRef();
   useEffect(() => {
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, []);
+    if (open) {
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = "";
+      };
+    }
+  }, [open]);
   const close = () => {
     modalRef.current.classList.toggle(styles.dismiss);
     document.body.style.overflow = "";
-    props.onClose();
+    onClose();
   };
 
+  useEffect(() => {
+    if (color) {
+      console.log("toggling color", modalRef.current.classList);
+      modalRef.current.classList.toggle(styles.primary);
+
+      console.log("toggling color", modalRef.current.classList);
+    }
+  }, [color]);
+
   return (
-    <div
-      className={props.open ? styles.modalWrapper : styles.dismiss}
-      ref={modalRef}
-    >
+    <div className={open ? styles.modalWrapper : styles.dismiss} ref={modalRef}>
       <div className={styles.backdrop}>
-        <div className={styles.contentWrapper}>
+        <div className={`${styles.contentWrapper} ${styles[color]}`}>
           <div className={styles.titleDiv}>
             <h1>Password error</h1>
           </div>
@@ -33,8 +40,12 @@ export default function LucienModal(props) {
             </h2>
           </div>
           <div className={styles.buttonDiv}>
-            <button>Okay</button>
-            <button onClick={close}>Dismiss</button>
+            <button className={styles.irisButton} onClick={() => {}}>
+              Okay
+            </button>
+            <button className={styles.irisButton} onClick={close}>
+              Dismiss
+            </button>
           </div>
         </div>
       </div>

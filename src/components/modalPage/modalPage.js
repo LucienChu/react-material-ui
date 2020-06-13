@@ -423,7 +423,11 @@ export default function ModalPage() {
       sunt esse in adipisicing eu in culpa. Officia reprehenderit quis deserunt
       eiusmod duis ullamco ipsum aliquip.
       <div>
-        <LucienModal open={openModal} onClose={() => setOpenModal(false)} />
+        <LucienModal
+          color="primary"
+          open={openModal}
+          onClose={() => setOpenModal(false)}
+        />
       </div>
     </div>
   );

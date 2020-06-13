@@ -1,3 +1,5 @@
+$red: #d00205f0;
+
 .modalWrapper {
   position: absolute;
   top: 0;
@@ -6,12 +8,17 @@
   height: 100vh;
   z-index: -1;
   opacity: 0;
-  animation: showModal 0.5s forwards;
+  animation: showModal 500ms forwards;
 }
 
 .dismiss {
-  display: none;
+  // display: none;
+  animation: hideModal 1s;
+  // animation: showModal 500ms reverse forwards;
 }
+// .dismissBbtn {
+//   animation: showModal 500ms reverse forwards;
+// }
 
 .backdrop {
   height: 100vh;
@@ -44,7 +51,6 @@
 }
 
 .buttonDiv {
-  background-color: khaki;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,13 +62,49 @@
 .buttonDiv button {
   margin-right: 1rem;
 }
+
+.irisButton {
+  background: $red;
+  color: #ffffff;
+  transition: background 0.1s ease-in-out;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  border-radius: 3px;
+  &:hover {
+    background: #ffffff;
+    color: $red;
+    cursor: pointer;
+    border: 2px solid $red;
+  }
+}
 @keyframes showModal {
   from {
-    z-index: -1;
     opacity: 0;
+    z-index: -1;
   }
   to {
-    z-index: 1500;
     opacity: 1;
+    z-index: 1500;
   }
+}
+
+.primary {
+  background: $red;
+}
+
+@keyframes hideModal {
+  from {
+    opacity: 1;
+    z-index: 1500;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.primary {
+  background: $red;
 }
