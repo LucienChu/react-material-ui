@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LucienModal from "../../cssComponent/panel/lucienModal/lucienModal";
+import IrisModal from "../../cssComponent/panel/IrisModal/irisModal";
 
 export default function ModalPage() {
   console.log("modal page called");
@@ -422,12 +423,17 @@ export default function ModalPage() {
       consectetur voluptate tempor culpa laboris. Non quis amet aliqua sit amet
       sunt esse in adipisicing eu in culpa. Officia reprehenderit quis deserunt
       eiusmod duis ullamco ipsum aliquip.
-      <div>
+      {/* <div>
         <LucienModal
+          title="Wrong password"
+          message="It turns out that you have entered a wrong password"
           color="primary"
           open={openModal}
           onClose={() => setOpenModal(false)}
         />
+      </div> */}
+      <div>
+        <IrisModal open={openModal} onClose={() => setOpenModal(false)} />
       </div>
     </div>
   );

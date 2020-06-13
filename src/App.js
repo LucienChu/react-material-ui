@@ -3,14 +3,18 @@ import logo from "./logo.svg";
 import "./App.css";
 import PanelAnimation from "./cssComponent/panel/panelAnimation";
 import ModalPage from "./components/modalPage/modalPage";
+import IrisButton from "./components/button/irisButton";
+import IrisModal from "./cssComponent/panel/IrisModal/irisModal";
 
 function App() {
   // return <PanelAnimation />;
-  return (
-    <div>
-      <ModalPage />
-    </div>
-  );
+  // return (
+  //   <div>
+  //     <IrisButton />
+  //   </div>
+  // );
+
+  return <ModalPage />;
 }
 
 export default App;

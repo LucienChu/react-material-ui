@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./lucienModal.module.scss";
-import "prop-types";
-export default function LucienModal({ open, color, onClose }) {
+import PropTypes from "prop-types";
+
+export default function LucienModal({ open, color, onClose, title, message }) {
   const modalRef = useRef();
   useEffect(() => {
     if (open) {
@@ -31,13 +32,10 @@ export default function LucienModal({ open, color, onClose }) {
       <div className={styles.backdrop}>
         <div className={`${styles.contentWrapper} ${styles[color]}`}>
           <div className={styles.titleDiv}>
-            <h1>Password error</h1>
+            <p className={styles.title}>{title}</p>
           </div>
           <div className={styles.contentDiv}>
-            <h2>
-              It turns out that you have enter a wrong password, please try
-              again
-            </h2>
+            <p className={styles.message}>{message}</p>
           </div>
           <div className={styles.buttonDiv}>
             <button className={styles.irisButton} onClick={() => {}}>
@@ -52,3 +50,17 @@ export default function LucienModal({ open, color, onClose }) {
     </div>
   );
 }
+
+LucienModal.propTypes = {
+  open: PropTypes.bool.isRequired,
+  onClose: PropTypes.func,
+  title: PropTypes.string,
+  message: PropTypes.string,
+  color: PropTypes.string,
+};
+
+LucienModal.defaultProps = {
+  title: "Missing title or message",
+  message:
+    "You see this message due to either title or message props are not given while using LucienModal, please specify it (them) in order to get rid of this defaut mssage. thanks for using.",
+};

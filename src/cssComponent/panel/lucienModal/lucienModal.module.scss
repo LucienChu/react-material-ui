@@ -1,3 +1,5 @@
+@import "../../../styles/constants";
+@import "../../../styles/mixins.scss";
 $red: #d00205f0;
 
 .modalWrapper {
@@ -12,13 +14,8 @@ $red: #d00205f0;
 }
 
 .dismiss {
-  // display: none;
-  animation: hideModal 1s;
-  // animation: showModal 500ms reverse forwards;
+  display: none;
 }
-// .dismissBbtn {
-//   animation: showModal 500ms reverse forwards;
-// }
 
 .backdrop {
   height: 100vh;
@@ -28,7 +25,7 @@ $red: #d00205f0;
 }
 
 .contentWrapper {
-  min-width: 450px;
+  min-width: $mobileSmall;
   min-height: 200px;
   background-color: #ffffff;
   border-radius: 1rem;
@@ -43,6 +40,39 @@ $red: #d00205f0;
 
 .titleDiv * {
   margin: 10px;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  @include MQ($tablet) {
+    font-size: 1.75rem;
+  }
+  @include MQ($mobileLarge) {
+    font-size: 1.5rem;
+  }
+  @include MQ($mobileMedium) {
+    font-size: 1.25rem;
+  }
+  @include MQ($mobileSmall) {
+    font-size: 1.2rem;
+  }
+}
+
+.message {
+  font-size: 1.5rem;
+  font-weight: 500;
+  @include MQ($tablet) {
+    font-size: 1.4rem;
+  }
+  @include MQ($mobileLarge) {
+    font-size: 1.3rem;
+  }
+  @include MQ($mobileMedium) {
+    font-size: 1.2rem;
+  }
+  @include MQ($mobileSmall) {
+    font-size: 1rem;
+  }
 }
 
 .contentDiv {
@@ -77,6 +107,9 @@ $red: #d00205f0;
     color: $red;
     cursor: pointer;
     border: 2px solid $red;
+  }
+  &:active {
+    background-color: green;
   }
 }
 @keyframes showModal {
