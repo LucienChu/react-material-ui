@@ -1,14 +1,15 @@
-import React from 'react';
-import './App.css';
-import RegularRouter from './routerDemo/routers/regularRouter/RegularRouter';
-import { PrivateRouter } from './routerDemo/routers/privateRouter/PrivateRouter';
-import EnhancedTable from './components/tables/PaginationTable';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import PanelAnimation from "./cssComponent/panel/panelAnimation";
+import ModalPage from "./components/modalPage/modalPage";
 
 function App() {
+  // return <PanelAnimation />;
   return (
-    // <EnhancedTable />
-    <RegularRouter />
-    // <PrivateRouter />
+    <div>
+      <ModalPage />
+    </div>
   );
 }
 

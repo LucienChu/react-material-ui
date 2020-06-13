@@ -1,0 +1,110 @@
+$red: #d00205f0;
+
+.modalWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0;
+  animation: showModal 500ms forwards;
+}
+
+.dismiss {
+  // display: none;
+  animation: hideModal 1s;
+  // animation: showModal 500ms reverse forwards;
+}
+// .dismissBbtn {
+//   animation: showModal 500ms reverse forwards;
+// }
+
+.backdrop {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contentWrapper {
+  min-width: 450px;
+  min-height: 200px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.titleDiv * {
+  margin: 10px;
+}
+
+.contentDiv {
+  margin: 10px;
+  /* flex-grow: 1; */
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.buttonDiv button {
+  margin-right: 1rem;
+}
+
+.irisButton {
+  background: $red;
+  color: #ffffff;
+  transition: background 0.1s ease-in-out;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  border-radius: 3px;
+  &:hover {
+    background: #ffffff;
+    color: $red;
+    cursor: pointer;
+    border: 2px solid $red;
+  }
+}
+@keyframes showModal {
+  from {
+    opacity: 0;
+    z-index: -1;
+  }
+  to {
+    opacity: 1;
+    z-index: 1500;
+  }
+}
+
+.primary {
+  background: $red;
+}
+
+@keyframes hideModal {
+  from {
+    opacity: 1;
+    z-index: 1500;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.primary {
+  background: $red;
+}
