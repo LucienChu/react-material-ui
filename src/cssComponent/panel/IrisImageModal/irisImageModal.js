@@ -14,13 +14,13 @@ export default function IrisImageModal({
   useEffect(() => {
     if (open === true) {
       modalRef.current.classList.toggle(styles.open);
-      document.body.style.position = "fixed";
+      document.body.style.overflow = "hidden";
     }
   }, [open]);
 
   const handleClose = () => {
     modalRef.current.classList.toggle(styles.open);
-    document.body.style.position = "";
+    document.body.style.overflow = "";
     onClose();
   };
 
@@ -33,16 +33,14 @@ export default function IrisImageModal({
       <div className={styles.contentWrapper} ref={modalRef}>
         <button className={styles.close} onClick={handleClose}></button>
 
-        <div className={styles.imageContainer}>
-          <div className={styles.modalOverlay}></div>
-          <button onClick={handleFlip} className={styles.rotationBtn}></button>
-          <img
-            ref={imageRef}
-            src={imageUrl || image}
-            alt={imageAlt || "demo image"}
-          />
-          <p className={styles.caption}>{caption}</p>
-        </div>
+        <div className={styles.modalOverlay}></div>
+        <button onClick={handleFlip} className={styles.rotationBtn}></button>
+        <img
+          ref={imageRef}
+          src={imageUrl || image}
+          alt={imageAlt || "demo image"}
+        />
+        <p className={styles.caption}>{caption}</p>
       </div>
     </div>
   );

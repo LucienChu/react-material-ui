@@ -17,7 +17,7 @@ $primary: slategray;
 $accent: tomato;
 $white: whitesmoke;
 $green: #2ecc71;
-$red: #e74c3c;
+$red: #d00205f0;
 
 // Breakpoints
 $sm: 20rem;
@@ -51,24 +51,31 @@ $lg: 64rem;
 }
 .contentWrapper {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: $red;
   border-radius: 0.3125rem;
   box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.5);
   transform: scale(0);
   transition: transform $base-duration;
   transition-delay: 200ms;
-  height: auto;
-  width: 30%;
-  @media screen and (max-width: 2520px) {
-    width: 50%;
+  width: 70%;
+  max-width: 1440px;
+  &:hover {
+    .rotationBtn,
+    .modalOverlay,
+    .caption {
+      opacity: 1;
+    }
   }
-  @media screen and (max-width: 1920px) {
-    width: 70%;
+  @media screen and (max-width: 1024px) {
+    padding: 0.75rem;
   }
   @media screen and (max-width: 768px) {
-    width: 80%;
+    padding: 0.5rem;
   }
 }
 
@@ -117,10 +124,9 @@ $lg: 64rem;
   }
 }
 .rotationBtn {
-  // z-index: -1;
   width: 100px;
   height: 3.25rem;
-  background: inherit;
+  background: transparent;
   color: #ffffff;
   border: solid 2px #ffffff;
   border-radius: 2px;
@@ -146,22 +152,6 @@ $lg: 64rem;
     border: none;
     width: 60px;
     height: 2.5rem;
-  }
-}
-.imageContainer {
-  overflow: hidden;
-  &:hover {
-    .rotationBtn,
-    .modalOverlay,
-    .caption {
-      opacity: 1;
-    }
-    // .modalOverlay {
-    //   opacity: 1;
-    // }
-    // .modalOverlay {
-
-    // }
   }
 }
 
@@ -195,8 +185,7 @@ $lg: 64rem;
 }
 
 img {
-  max-width: 100%;
-  max-height: auto;
+  width: 100%;
   object-fit: contain;
   transition: all 1s;
 }

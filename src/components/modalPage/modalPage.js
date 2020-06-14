@@ -437,7 +437,7 @@ export default function ModalPage() {
         <IrisModal open={openModal} onClose={() => setOpenModal(false)} />
       </div> */}
       <div>
-        <IrisImageModal open={openModal} onClose={() => setOpenModal(false)} />
+        <IrisImageModal open={true} onClose={() => setOpenModal(false)} />
       </div>
     </div>
   );
