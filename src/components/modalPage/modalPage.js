@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LucienModal from "../../cssComponent/panel/lucienModal/lucienModal";
 import IrisModal from "../../cssComponent/panel/IrisModal/irisModal";
+import IrisImageModal from "../../cssComponent/panel/IrisImageModal/irisImageModal";
 
 export default function ModalPage() {
   console.log("modal page called");
@@ -432,8 +433,11 @@ export default function ModalPage() {
           onClose={() => setOpenModal(false)}
         />
       </div> */}
-      <div>
+      {/* <div>
         <IrisModal open={openModal} onClose={() => setOpenModal(false)} />
+      </div> */}
+      <div>
+        <IrisImageModal open={openModal} onClose={() => setOpenModal(false)} />
       </div>
     </div>
   );

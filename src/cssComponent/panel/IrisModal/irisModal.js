@@ -25,16 +25,19 @@ export default function IrisModal({
 
   const handleDismiss = () => {
     handleClose();
-    onDismiss();
+    if (onDismiss) {
+      onDismiss();
+    }
   };
 
   const handleConfirm = () => {
     handleClose();
-    onConfirm();
+    if (onConfirm) {
+      onConfirm();
+    }
   };
 
   return (
-    // <div className={styles.modalWrapper}>
     <div className={styles.modalContainer} ref={modalRef}>
       <div className={styles.contentWrapper} ref={modalRef}>
         <button className={styles.close} onClick={handleClose}></button>
@@ -49,13 +52,14 @@ export default function IrisModal({
           <button className={styles.actionButton} onClick={handleDismiss}>
             Dismiss
           </button>
-          <button className={styles.actionButton} onClick={handleConfirm}>
-            Okay
-          </button>
+          {onConfirm ? (
+            <button className={styles.actionButton} onClick={handleConfirm}>
+              Okay
+            </button>
+          ) : null}
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
@@ -72,10 +76,4 @@ IrisModal.defaultProps = {
   open: true,
   title: "Default title for modal",
   message: `Default message. please define properties: open, title and (or) message in order to customize this modal`,
-  onClose: () =>
-    alert("close button is pressed, onClose function is not defined"),
-  onDismiss: () =>
-    alert("dismiss button is pressed, onClose function is not defined"),
-  onConfirm: () =>
-    alert("confirm button is pressed, onClose function is not defined"),
 };

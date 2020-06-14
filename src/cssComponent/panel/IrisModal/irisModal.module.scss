@@ -58,6 +58,9 @@ $lg: 64rem;
     transition: transform $base-duration;
     transition-delay: 200ms;
 
+    @media screen and (max-width: 678px) {
+      width: 80%;
+    }
     .modalHeader {
       position: relative;
       display: flex;
