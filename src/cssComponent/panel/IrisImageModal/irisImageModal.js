@@ -1,10 +1,16 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./irisImageModal.module.scss";
-import image from "./demo.jpg";
-export default function IrisImageModal({ open, onClose }) {
+import image from "./IRIS-demo-image.jpg";
+import PropTypes from "prop-types";
+export default function IrisImageModal({
+  open,
+  imageUrl,
+  imageAlt,
+  caption,
+  onClose,
+}) {
   const modalRef = useRef();
   const imageRef = useRef();
-  const [isImageRotated, setIsImageRotated] = useState(false);
   useEffect(() => {
     if (open === true) {
       modalRef.current.classList.toggle(styles.open);
@@ -32,12 +38,25 @@ export default function IrisImageModal({ open, onClose }) {
           <button onClick={handleFlip} className={styles.rotationBtn}></button>
           <img
             ref={imageRef}
-            src={image}
-            alt="Photo by Bri Schneiter from Pexels"
+            src={imageUrl || image}
+            alt={imageAlt || "demo image"}
           />
-          <p className={styles.caption}>Caption</p>
+          <p className={styles.caption}>{caption}</p>
         </div>
       </div>
     </div>
   );
 }
+
+IrisImageModal.propTypes = {
+  open: PropTypes.bool.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired,
+  caption: PropTypes.string,
+};
+
+IrisImageModal.defaultProps = {
+  imageUrl: image,
+  imageAlt: "IRIS demo Image",
+  caption: "IRIS Demo Image",
+};
