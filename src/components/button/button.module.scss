@@ -1,38 +1,31 @@
-$black: #000;
-$white: #fff;
-$shocking-pink: #ff1ead;
-
-.button {
-  color: $white;
-  font: inherit;
-  background-color: $black;
-  border: solid 4px $white;
-  padding: 20px 30px;
+.parent {
   overflow: hidden;
-  display: inline-block;
   position: relative;
+  min-width: 100px;
+  min-height: 40px;
+  border-radius: 10px;
+  border: solid 1px #000000;
 }
 
-.ripple {
-  background-color: $shocking-pink;
-  width: 1rem;
-  height: 1rem;
+.container {
   position: absolute;
-  border-radius: 50%;
-  transform: translateX(-100%) translateY(-100%);
-  mix-blend-mode: screen;
-  animation: ripple 1000ms ease-out forwards;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  span {
+    position: absolute;
+    transform: scale(0);
+    border-radius: 100%;
+    opacity: 0.75;
+    animation-name: ripple;
+    animation-duration: 850ms;
+  }
 }
 
 @keyframes ripple {
-  0% {
-    transform: translate(-100%, -100%);
-  }
-  80% {
-    transform: translate(-100%, -100%) scale(50);
-  }
-  100% {
-    transform: translate(-100%, -100%) scale(50);
+  to {
     opacity: 0;
+    transform: scale(1.2);
   }
 }
