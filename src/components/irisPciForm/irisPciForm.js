@@ -16,6 +16,7 @@ import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 import MenuItem from "@material-ui/core/MenuItem";
+import LeftTable from "./table/leftTable";
 
 const rowStyle = {
   padding: "2rem 1rem",
@@ -198,6 +199,7 @@ export default function IrisPciForm() {
                 value="2018-07-22"
                 min="2018-01-01"
                 max="2018-12-31"
+                onChange={() => console.log("input onChange")}
               />
             </Grid>
           </Grid>
@@ -330,16 +332,7 @@ export default function IrisPciForm() {
         </Grid>
 
         <Grid container style={rowStyle}>
-          <Grid
-            item
-            xs={6}
-            style={{ background: "green", height: "100vh", width: "50%" }}
-          ></Grid>
-          <Grid
-            item
-            xs={6}
-            style={{ background: "blue", height: "100vh", width: "50%" }}
-          ></Grid>
+          <LeftTable />
         </Grid>
       </Grid>
     </div>
