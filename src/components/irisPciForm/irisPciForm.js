@@ -16,7 +16,9 @@ import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 import MenuItem from "@material-ui/core/MenuItem";
-import LeftTable from "./table/leftTable";
+import PavementTable from "./table/pavementTable/pavementTable";
+import ShoulderTable from "./table/shoulderTable/shouldersTable";
+import TreatmentTable from "./table/treatmentTable/treatmentTable";
 
 const rowStyle = {
   padding: "2rem 1rem",
@@ -54,6 +56,8 @@ export default function IrisPciForm() {
         alignItems="center"
         className={styles.formWrapper}
       >
+        {/* <TreatmentTable /> */}
+        {/* <ShoulderTable /> */}
         <Grid
           spacing={2}
           item
@@ -332,7 +336,18 @@ export default function IrisPciForm() {
         </Grid>
 
         <Grid container style={rowStyle}>
-          <LeftTable />
+          <PavementTable />
+        </Grid>
+        <Grid container style={rowStyle}>
+          <TextField
+            id="distressCommentsTextField"
+            fullWidth
+            rows={2}
+            rowsMax={5}
+            label="Distress Comments (items not covered above)"
+            color="secondary"
+            multiline
+          />
         </Grid>
       </Grid>
     </div>
