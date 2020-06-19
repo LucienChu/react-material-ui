@@ -57,7 +57,7 @@ export default function IrisPciForm() {
         className={styles.formWrapper}
       >
         {/* <TreatmentTable /> */}
-        {/* <ShoulderTable /> */}
+        <ShoulderTable />
         <Grid
           spacing={2}
           item
@@ -336,7 +336,7 @@ export default function IrisPciForm() {
         </Grid>
 
         <Grid container style={rowStyle}>
-          <PavementTable />
+          {/* <PavementTable /> */}
         </Grid>
         <Grid container style={rowStyle}>
           <TextField
