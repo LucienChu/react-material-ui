@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import styles from "../../irisPCIForm.module.scss";
 import styles from "../irisPCIForm.module.scss";
 import Grid from "@material-ui/core/Grid/Grid";
@@ -16,6 +16,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import MenuItem from "@material-ui/core/MenuItem";
 
 const trafficDirections = [
+  "N / A",
   "a: BOTH DIRECTIONS",
   "N: NORTH BOUND",
   "S: SOUTH BOUND",
@@ -24,6 +25,7 @@ const trafficDirections = [
 ];
 
 const facilities = [
+  "N / A",
   "A: ALLIANES",
   "C: COLLECTOR",
   "E: EXPRESS",
@@ -31,6 +33,7 @@ const facilities = [
 ];
 
 const classes = [
+  "N / A",
   "F: FREEWAY",
   "A: ARTERIAL",
   "C: COLLECTOR",
@@ -40,7 +43,61 @@ const classes = [
 const rowStyle = {
   padding: "2rem 1rem",
 };
+
+const INT_TESTER = new RegExp(/^-?\d*$/);
+const DECIMAL_TESTER = new RegExp(/^-?\d*[.,]?\d{0,2}$/);
 export default function GeneralInfo() {
+  const [startLocation, setStartLocation] = useState("");
+  const [endLocation, setEndLocation] = useState("");
+
+  const [LHRSBegin, setLHRSBegin] = useState("");
+  const [LHRSOffset, setLHRSOffset] = useState("");
+  const [sectionLength, setSectionLength] = useState("");
+  const [district, setDistrict] = useState("");
+
+  const [selectedDate, setSelectedDate] = useState("");
+  const [PCR, setPCR] = useState("");
+  const [RCR, setRCR] = useState("");
+  const [traficDirection, setTraficDirection] = useState(trafficDirections[0]);
+  const [highway, setHighway] = useState("");
+
+  const [contractNumber, setContractNumber] = useState("");
+  const [WPNumber, setWPNumber] = useState("");
+  const [facility, setFacility] = useState(facilities[0]);
+  const [selectedClass, setSelectedClass] = useState(classes[0]);
+
+  const handleSelectedValue = (event, setter) => {
+    const value = event.target.value;
+    console.log("handleSelectedValue", value);
+    setter(value);
+  };
+
+  const handleTextFieldChanged = (event, setter) => {
+    const value = event.target.value;
+    console.log("handleTextFieldChanged", value);
+    setter(value);
+  };
+
+  const handleNumberChanged = (event, oldValue, tester, setter) => {
+    const updatedOldValue = oldValue || "";
+    const value = event.target.value;
+    debugger;
+    const result = tester.test(value);
+    debugger;
+    setter(result ? value : updatedOldValue);
+  };
+
+  // const handleTextFieldChanged = (event, setter, type) => {
+  //   const value = event.target.value;
+  //   const oldValue = LHRS.begin || "";
+  //   const result = DECIMAL_TESTER.test(value);
+  //   debugger;
+  //   setLHRS({
+  //     begin: result === false ? oldValue : value,
+  //     offset: LHRS.offset,
+  //   });
+  // };
+
   return (
     <div>
       <Grid
@@ -59,7 +116,11 @@ export default function GeneralInfo() {
             <Grid item xs={6}>
               <FormControl fullWidth>
                 <InputLabel>From</InputLabel>
-                <Input id="locationFrom" />
+                <Input
+                  id="locationFrom"
+                  value={startLocation}
+                  onChange={(event) => setStartLocation(event.target.value)}
+                />
               </FormControl>
             </Grid>
             <Grid item xs={6}>
@@ -68,6 +129,7 @@ export default function GeneralInfo() {
                 <Input
                   id="locationTo"
                   aria-describedby="component-helper-text"
+                  onChange={(event) => setEndLocation(event.target.value)}
                 />
               </FormControl>
             </Grid>
@@ -91,13 +153,14 @@ export default function GeneralInfo() {
               <Grid item xs={5}>
                 <FormControl>
                   <Input
-                    id="standard-adornment-weight"
-                    aria-describedby="standard-weight-helper-text"
+                    id="LHRSBeginTextField"
+                    aria-describedby="LHRS-begin-input"
                     inputProps={{
                       "aria-label": "weight",
                     }}
+                    value={LHRSBegin}
                   />
-                  <FormHelperText id="standard-weight-helper-text">
+                  <FormHelperText id="LHRS-begin-helper-text">
                     BEGINS
                   </FormHelperText>
                 </FormControl>
@@ -105,16 +168,13 @@ export default function GeneralInfo() {
               <Grid item xs={5}>
                 <FormControl>
                   <Input
-                    id="standard-adornment-weight"
+                    id="LHRSOffsetTextField"
                     endAdornment={
                       <InputAdornment position="end">km</InputAdornment>
                     }
-                    aria-describedby="standard-weight-helper-text"
-                    inputProps={{
-                      "aria-label": "weight",
-                    }}
+                    aria-describedby="LHRS-Offset-input"
                   />
-                  <FormHelperText id="standard-weight-helper-text">
+                  <FormHelperText id="LHRS-Offset-helper-text">
                     OFFSET
                   </FormHelperText>
                 </FormControl>
@@ -129,16 +189,16 @@ export default function GeneralInfo() {
           <Grid item xs={8}>
             <FormControl fullWidth>
               <Input
-                id="standard-adornment-weight"
+                id="sectionLengthTextInput"
                 endAdornment={
                   <InputAdornment position="end">km</InputAdornment>
                 }
-                aria-describedby="standard-weight-helper-text"
+                aria-describedby="section-length-input"
                 inputProps={{
                   "aria-label": "weight",
                 }}
               />
-              <FormHelperText id="standard-weight-helper-text">
+              <FormHelperText id="section-length-input-helper-text">
                 LENGTH
               </FormHelperText>
             </FormControl>
@@ -151,18 +211,13 @@ export default function GeneralInfo() {
           <Grid item md={6} xs={8}>
             <FormControl fullWidth>
               <Input
-                id="standard-adornment-weight"
-                endAdornment={
-                  <InputAdornment position="end">km</InputAdornment>
+                id="districtTextField"
+                aria-describedby="district-input"
+                value={district}
+                onChange={(event) =>
+                  handleNumberChanged(event, district, INT_TESTER, setDistrict)
                 }
-                aria-describedby="standard-weight-helper-text"
-                inputProps={{
-                  "aria-label": "weight",
-                }}
               />
-              <FormHelperText id="standard-weight-helper-text">
-                LENGTH
-              </FormHelperText>
             </FormControl>
           </Grid>
         </Grid>
@@ -188,7 +243,7 @@ export default function GeneralInfo() {
               value="2018-07-22"
               min="2018-01-01"
               max="2018-12-31"
-              onChange={() => console.log("input onChange")}
+              onChange={(value) => handleSelectedValue(value, setSelectedDate)}
             />
           </Grid>
         </Grid>
@@ -200,7 +255,13 @@ export default function GeneralInfo() {
               </Grid>
               <Grid item xs={10}>
                 <FormControl fullWidth>
-                  <Input id="locationFrom" />
+                  <Input
+                    id="locationFrom"
+                    value={PCR}
+                    onChange={(event) =>
+                      handleNumberChanged(event, PCR, INT_TESTER, setPCR)
+                    }
+                  />
                 </FormControl>
               </Grid>
             </Grid>
@@ -213,7 +274,13 @@ export default function GeneralInfo() {
               </Grid>
               <Grid item xs={10}>
                 <FormControl fullWidth>
-                  <Input id="locationFrom" />
+                  <Input
+                    id="locationFrom"
+                    value={RCR}
+                    onChange={(event) =>
+                      handleNumberChanged(event, RCR, DECIMAL_TESTER, setRCR)
+                    }
+                  />
                 </FormControl>
               </Grid>
             </Grid>
@@ -223,10 +290,10 @@ export default function GeneralInfo() {
           <Grid item xs={5}>
             <TextField
               fullWidth
-              id="standard-select-currency"
+              id="trafficDirectionTextField"
               select
               label="Traffic Direction"
-              helperText="Please select your currency"
+              value={traficDirection}
             >
               {trafficDirections.map((direction, index) => (
                 <MenuItem key={index} value={direction}>
@@ -265,7 +332,18 @@ export default function GeneralInfo() {
             </Grid>
             <Grid item xs={8}>
               <FormControl fullWidth>
-                <Input id="locationFrom" />
+                <Input
+                  id="locationFrom"
+                  value={contractNumber}
+                  onChange={(event) =>
+                    handleNumberChanged(
+                      event,
+                      contractNumber,
+                      INT_TESTER,
+                      setContractNumber
+                    )
+                  }
+                />
               </FormControl>
             </Grid>
           </Grid>
@@ -278,7 +356,18 @@ export default function GeneralInfo() {
             </Grid>
             <Grid item xs={9}>
               <FormControl fullWidth>
-                <Input id="locationFrom" />
+                <Input
+                  id="locationFrom"
+                  value={WPNumber}
+                  onChange={(event) =>
+                    handleNumberChanged(
+                      event,
+                      WPNumber,
+                      INT_TESTER,
+                      setWPNumber
+                    )
+                  }
+                />
               </FormControl>
             </Grid>
           </Grid>
@@ -289,10 +378,10 @@ export default function GeneralInfo() {
             <Grid item xs={6}>
               <TextField
                 fullWidth
-                id="standard-select-currency"
+                id="facilitySelector"
                 select
                 label="Facility"
-                helperText="Please select your currency"
+                value={facility}
               >
                 {facilities.map((facility, index) => (
                   <MenuItem key={index} value={facility}>
@@ -304,10 +393,13 @@ export default function GeneralInfo() {
             <Grid item xs={6}>
               <TextField
                 fullWidth
-                id="standard-select-currency"
+                id="classSelector"
                 select
                 label="Class"
-                helperText="Please select your currency"
+                value={selectedClass}
+                onChange={(event) =>
+                  handleSelectedValue(event, setSelectedClass)
+                }
               >
                 {classes.map((classType, index) => (
                   <MenuItem key={index} value={classType}>
@@ -319,21 +411,6 @@ export default function GeneralInfo() {
           </Grid>
         </Grid>
       </Grid>
-
-      <Grid container style={rowStyle}>
-        {/* <PavementTable /> */}
-      </Grid>
-      {/* <Grid container style={rowStyle}>
-        <TextField
-          id="distressCommentsTextField"
-          fullWidth
-          rows={2}
-          rowsMax={5}
-          label="Distress Comments (items not covered above)"
-          color="secondary"
-          multiline
-        />
-      </Grid> */}
     </div>
   );
 }

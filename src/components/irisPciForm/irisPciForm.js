@@ -32,8 +32,9 @@ export default function IrisPciForm() {
         className={styles.formWrapper}
       >
         <GeneralInfo />
+        {/* <PavementTable />
         <TreatmentTable />
-        <ShoulderTable />
+        <ShoulderTable /> */}
       </Grid>
     </div>
   );

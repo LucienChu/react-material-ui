@@ -10,8 +10,10 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import styles from "../pciTable.module.scss";
-import { Box, Checkbox } from "@material-ui/core";
-import { deepOrange } from "@material-ui/core/colors";
+import TextField from "@material-ui/core/TextField";
+import { Checkbox } from "@material-ui/core";
+
+import Grid from "@material-ui/core/Grid/Grid";
 
 const SEVERITY = "severity";
 const DENSITY = "density";
@@ -202,243 +204,288 @@ export default function ShoulderTable() {
   };
 
   return (
-    <TableContainer component={Paper}>
-      <Table>
-        <TableHead>
-          <TableRow>
-            <TableCell colSpan={3} align="center">
-              Shoulders
-            </TableCell>
-            <TableCell colSpan={4} align="center">
-              SEVERITY OF DISTRESS
-            </TableCell>
-            <TableCell colSpan={4} align="center">
-              <p>DENSITY OF DISTRESS</p>
-              <p>Extent of Occurrence, %</p>
-            </TableCell>
-          </TableRow>
+    <Grid container justify="flex-end">
+      <TableContainer component={Paper}>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell colSpan={3} align="center">
+                Shoulders
+              </TableCell>
+              <TableCell colSpan={4} align="center">
+                SEVERITY OF DISTRESS
+              </TableCell>
+              <TableCell colSpan={4} align="center">
+                <p>DENSITY OF DISTRESS</p>
+                <p>Extent of Occurrence, %</p>
+              </TableCell>
+            </TableRow>
 
-          <TableRow>
-            <TableCell rowSpan={4}>DOMINANT TYPE</TableCell>
-            <TableCell rowSpan={4}>
-              <span className={styles.verticalTitle}>ONE</span>
-            </TableCell>
-            <TableCell rowSpan={4}>DISTRESS</TableCell>
-          </TableRow>
+            <TableRow>
+              <TableCell rowSpan={4}>DOMINANT TYPE</TableCell>
+              <TableCell rowSpan={4}>
+                <span className={styles.verticalTitle}>ONE</span>
+              </TableCell>
+              <TableCell rowSpan={4}>DISTRESS</TableCell>
+            </TableRow>
 
-          {/* left / right row */}
-          <TableRow>
-            <TableCell colSpan={2} align="center">
-              RIGHT
-            </TableCell>
-            <TableCell colSpan={2} align="center">
-              LEFT
-            </TableCell>
-            <TableCell colSpan={2} align="center">
-              RIGHT
-            </TableCell>
-            <TableCell colSpan={2} align="center">
-              LEFT
-            </TableCell>
-          </TableRow>
+            {/* left / right row */}
+            <TableRow>
+              <TableCell colSpan={2} align="center">
+                RIGHT
+              </TableCell>
+              <TableCell colSpan={2} align="center">
+                LEFT
+              </TableCell>
+              <TableCell colSpan={2} align="center">
+                RIGHT
+              </TableCell>
+              <TableCell colSpan={2} align="center">
+                LEFT
+              </TableCell>
+            </TableRow>
 
-          {/* mod sever row */}
-          <TableRow>
-            <TableCell align="center">Mod</TableCell>
-            <TableCell align="center">Severe</TableCell>
-            <TableCell align="center">Mod</TableCell>
-            <TableCell align="center">Severe</TableCell>
-            <TableCell align="center">Mod</TableCell>
-            <TableCell align="center">Severe</TableCell>
-            <TableCell align="center">Mod</TableCell>
-            <TableCell align="center">Severe</TableCell>
-          </TableRow>
+            {/* mod sever row */}
+            <TableRow>
+              <TableCell align="center">Mod</TableCell>
+              <TableCell align="center">Severe</TableCell>
+              <TableCell align="center">Mod</TableCell>
+              <TableCell align="center">Severe</TableCell>
+              <TableCell align="center">Mod</TableCell>
+              <TableCell align="center">Severe</TableCell>
+              <TableCell align="center">Mod</TableCell>
+              <TableCell align="center">Severe</TableCell>
+            </TableRow>
 
-          {/* 1 and 2 row */}
-          <TableRow>
-            <TableCell align="center">1</TableCell>
-            <TableCell align="center">2</TableCell>
-            <TableCell align="center">1</TableCell>
-            <TableCell align="center">2</TableCell>
-            <TableCell align="center">1</TableCell>
-            <TableCell align="center">2</TableCell>
-            <TableCell align="center">1</TableCell>
-            <TableCell align="center">2</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          <TableRow>
-            <TableCell rowSpan={2}>{dominantType.PAVED_FULL}</TableCell>
-            {renderDominateTypeCheckbox(
-              2,
-              dominantType.PAVED_FULL,
-              selectedDominantType
-            )}
-            <TableCell>{crackingObject.title}</TableCell>
-            {renderCheckboxes(
-              crackingObject,
-              SEVERITY,
-              RIGHT,
-              setCrackingObject
-            )}
-            {renderCheckboxes(
-              crackingObject,
-              SEVERITY,
-              LEFT,
-              setCrackingObject
-            )}
-            {renderCheckboxes(
-              crackingObject,
-              DENSITY,
-              RIGHT,
-              setCrackingObject
-            )}
-            {renderCheckboxes(crackingObject, DENSITY, LEFT, setCrackingObject)}
-          </TableRow>
-          <TableRow>
-            <TableCell>{pavementObject.title}</TableCell>
-            {renderCheckboxes(
-              pavementObject,
-              SEVERITY,
-              RIGHT,
-              setPavementObject
-            )}
-            {renderCheckboxes(
-              pavementObject,
-              SEVERITY,
-              LEFT,
-              setPavementObject
-            )}
-            {renderCheckboxes(
-              pavementObject,
-              DENSITY,
-              RIGHT,
-              setPavementObject
-            )}
-            {renderCheckboxes(pavementObject, DENSITY, LEFT, setPavementObject)}
-          </TableRow>
+            {/* 1 and 2 row */}
+            <TableRow>
+              <TableCell align="center">1</TableCell>
+              <TableCell align="center">2</TableCell>
+              <TableCell align="center">1</TableCell>
+              <TableCell align="center">2</TableCell>
+              <TableCell align="center">1</TableCell>
+              <TableCell align="center">2</TableCell>
+              <TableCell align="center">1</TableCell>
+              <TableCell align="center">2</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            <TableRow>
+              <TableCell rowSpan={2}>{dominantType.PAVED_FULL}</TableCell>
+              {renderDominateTypeCheckbox(
+                2,
+                dominantType.PAVED_FULL,
+                selectedDominantType
+              )}
+              <TableCell>{crackingObject.title}</TableCell>
+              {renderCheckboxes(
+                crackingObject,
+                SEVERITY,
+                RIGHT,
+                setCrackingObject
+              )}
+              {renderCheckboxes(
+                crackingObject,
+                SEVERITY,
+                LEFT,
+                setCrackingObject
+              )}
+              {renderCheckboxes(
+                crackingObject,
+                DENSITY,
+                RIGHT,
+                setCrackingObject
+              )}
+              {renderCheckboxes(
+                crackingObject,
+                DENSITY,
+                LEFT,
+                setCrackingObject
+              )}
+            </TableRow>
+            <TableRow>
+              <TableCell>{pavementObject.title}</TableCell>
+              {renderCheckboxes(
+                pavementObject,
+                SEVERITY,
+                RIGHT,
+                setPavementObject
+              )}
+              {renderCheckboxes(
+                pavementObject,
+                SEVERITY,
+                LEFT,
+                setPavementObject
+              )}
+              {renderCheckboxes(
+                pavementObject,
+                DENSITY,
+                RIGHT,
+                setPavementObject
+              )}
+              {renderCheckboxes(
+                pavementObject,
+                DENSITY,
+                LEFT,
+                setPavementObject
+              )}
+            </TableRow>
 
-          <TableRow>
-            <TableCell>{dominantType.PAVED_PARTIAL}</TableCell>
-            {renderDominateTypeCheckbox(
-              null,
-              dominantType.PAVED_PARTIAL,
-              selectedDominantType
-            )}
-            <TableCell>{distortionObject.title}</TableCell>
-            {renderCheckboxes(
-              distortionObject,
-              SEVERITY,
-              RIGHT,
-              setDistortionObject
-            )}
-            {renderCheckboxes(
-              distortionObject,
-              SEVERITY,
-              LEFT,
-              setDistortionObject
-            )}
-            {renderCheckboxes(
-              distortionObject,
-              DENSITY,
-              RIGHT,
-              setDistortionObject
-            )}
-            {renderCheckboxes(
-              distortionObject,
-              DENSITY,
-              LEFT,
-              setDistortionObject
-            )}
-          </TableRow>
+            <TableRow>
+              <TableCell>{dominantType.PAVED_PARTIAL}</TableCell>
+              {renderDominateTypeCheckbox(
+                null,
+                dominantType.PAVED_PARTIAL,
+                selectedDominantType
+              )}
+              <TableCell>{distortionObject.title}</TableCell>
+              {renderCheckboxes(
+                distortionObject,
+                SEVERITY,
+                RIGHT,
+                setDistortionObject
+              )}
+              {renderCheckboxes(
+                distortionObject,
+                SEVERITY,
+                LEFT,
+                setDistortionObject
+              )}
+              {renderCheckboxes(
+                distortionObject,
+                DENSITY,
+                RIGHT,
+                setDistortionObject
+              )}
+              {renderCheckboxes(
+                distortionObject,
+                DENSITY,
+                LEFT,
+                setDistortionObject
+              )}
+            </TableRow>
 
-          <TableRow>
-            <TableCell rowSpan={3}>{dominantType.SURFACE_TREATED}</TableCell>
-            {renderDominateTypeCheckbox(
-              3,
-              dominantType.SURFACE_TREATED,
-              selectedDominantType
-            )}
-          </TableRow>
-          <TableRow>
-            <TableCell>{breakupOrSeparationObject.title}</TableCell>
-            {renderCheckboxes(
-              breakupOrSeparationObject,
-              SEVERITY,
-              RIGHT,
-              setBreakupOrSeparationObject
-            )}
-            {renderCheckboxes(
-              breakupOrSeparationObject,
-              SEVERITY,
-              LEFT,
-              setBreakupOrSeparationObject
-            )}
-            {renderCheckboxes(
-              breakupOrSeparationObject,
-              DENSITY,
-              RIGHT,
-              setBreakupOrSeparationObject
-            )}
-            {renderCheckboxes(
-              breakupOrSeparationObject,
-              DENSITY,
-              LEFT,
-              setBreakupOrSeparationObject
-            )}
-          </TableRow>
-          <TableRow>
-            <TableCell>{edgeBreakObject.title}</TableCell>
-            {renderCheckboxes(
-              edgeBreakObject,
-              SEVERITY,
-              RIGHT,
-              setEdgeBreakObject
-            )}
-            {renderCheckboxes(
-              edgeBreakObject,
-              SEVERITY,
-              LEFT,
-              setEdgeBreakObject
-            )}
-            {renderCheckboxes(
-              edgeBreakObject,
-              DENSITY,
-              RIGHT,
-              setEdgeBreakObject
-            )}
-            {renderCheckboxes(
-              edgeBreakObject,
-              DENSITY,
-              LEFT,
-              setEdgeBreakObject
-            )}
-          </TableRow>
+            <TableRow>
+              <TableCell rowSpan={3}>{dominantType.SURFACE_TREATED}</TableCell>
+              {renderDominateTypeCheckbox(
+                3,
+                dominantType.SURFACE_TREATED,
+                selectedDominantType
+              )}
+            </TableRow>
+            <TableRow>
+              <TableCell>{breakupOrSeparationObject.title}</TableCell>
+              {renderCheckboxes(
+                breakupOrSeparationObject,
+                SEVERITY,
+                RIGHT,
+                setBreakupOrSeparationObject
+              )}
+              {renderCheckboxes(
+                breakupOrSeparationObject,
+                SEVERITY,
+                LEFT,
+                setBreakupOrSeparationObject
+              )}
+              {renderCheckboxes(
+                breakupOrSeparationObject,
+                DENSITY,
+                RIGHT,
+                setBreakupOrSeparationObject
+              )}
+              {renderCheckboxes(
+                breakupOrSeparationObject,
+                DENSITY,
+                LEFT,
+                setBreakupOrSeparationObject
+              )}
+            </TableRow>
+            <TableRow>
+              <TableCell>{edgeBreakObject.title}</TableCell>
+              {renderCheckboxes(
+                edgeBreakObject,
+                SEVERITY,
+                RIGHT,
+                setEdgeBreakObject
+              )}
+              {renderCheckboxes(
+                edgeBreakObject,
+                SEVERITY,
+                LEFT,
+                setEdgeBreakObject
+              )}
+              {renderCheckboxes(
+                edgeBreakObject,
+                DENSITY,
+                RIGHT,
+                setEdgeBreakObject
+              )}
+              {renderCheckboxes(
+                edgeBreakObject,
+                DENSITY,
+                LEFT,
+                setEdgeBreakObject
+              )}
+            </TableRow>
 
-          <TableRow>
-            <TableCell> {dominantType.PRIMED}</TableCell>
-            {renderDominateTypeCheckbox(
-              null,
-              dominantType.PRIMED,
-              selectedDominantType
-            )}
+            <TableRow>
+              <TableCell> {dominantType.PRIMED}</TableCell>
+              {renderDominateTypeCheckbox(
+                null,
+                dominantType.PRIMED,
+                selectedDominantType
+              )}
 
-            <TableCell>{breakupObject.title}</TableCell>
-            {renderCheckboxes(breakupObject, SEVERITY, RIGHT, seTbreakupObject)}
-            {renderCheckboxes(breakupObject, SEVERITY, LEFT, seTbreakupObject)}
-            {renderCheckboxes(breakupObject, DENSITY, RIGHT, seTbreakupObject)}
-            {renderCheckboxes(breakupObject, DENSITY, LEFT, seTbreakupObject)}
-          </TableRow>
-          <TableRow>
-            <TableCell>{dominantType.GRAVEL}</TableCell>
-            {renderDominateTypeCheckbox(
-              null,
-              dominantType.GRAVEL,
-              selectedDominantType
-            )}
-          </TableRow>
-        </TableBody>
-      </Table>
-    </TableContainer>
+              <TableCell>{breakupObject.title}</TableCell>
+              {renderCheckboxes(
+                breakupObject,
+                SEVERITY,
+                RIGHT,
+                seTbreakupObject
+              )}
+              {renderCheckboxes(
+                breakupObject,
+                SEVERITY,
+                LEFT,
+                seTbreakupObject
+              )}
+              {renderCheckboxes(
+                breakupObject,
+                DENSITY,
+                RIGHT,
+                seTbreakupObject
+              )}
+              {renderCheckboxes(breakupObject, DENSITY, LEFT, seTbreakupObject)}
+            </TableRow>
+            <TableRow>
+              <TableCell>{dominantType.GRAVEL}</TableCell>
+              {renderDominateTypeCheckbox(
+                null,
+                dominantType.GRAVEL,
+                selectedDominantType
+              )}
+            </TableRow>
+          </TableBody>
+        </Table>
+      </TableContainer>
+      <Grid item container style={{ marginTop: "1rem" }}>
+        <TextField
+          id="otherComments (e.g subsections. additional contracts)"
+          fullWidth
+          rows={2}
+          rowsMax={5}
+          label="Distress Comments (items not covered above)"
+          color="secondary"
+          multiline
+        />
+      </Grid>
+      <Grid item style={{ marginTop: "1rem" }}>
+        <TextField
+          id="signatureTextField"
+          label="Evaluated by"
+          color="secondary"
+        />
+      </Grid>
+    </Grid>
   );
 }
