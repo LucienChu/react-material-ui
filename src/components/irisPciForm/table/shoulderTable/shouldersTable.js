@@ -11,6 +11,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import styles from "../pciTable.module.scss";
 import { Box, Checkbox } from "@material-ui/core";
+import { deepOrange } from "@material-ui/core/colors";
 
 const SEVERITY = "severity";
 const DENSITY = "density";
@@ -28,28 +29,28 @@ const PCI_OBJECT_TITLES = {
   BREAKUP: "Breakup",
 };
 
-const getPCIObject = (title) => {
+const getPCIObject = (title, disabled) => {
   return {
     title: title,
     checkboxes: {
       [SEVERITY]: {
         [RIGHT]: {
-          [MOD]: { checked: false, disabled: false },
-          [SEVERE]: { checked: false, disabled: false },
+          [MOD]: { checked: false, disabled: disabled },
+          [SEVERE]: { checked: false, disabled: disabled },
         },
         [LEFT]: {
-          [MOD]: { checked: false, disabled: false },
-          [SEVERE]: { checked: false, disabled: false },
+          [MOD]: { checked: false, disabled: disabled },
+          [SEVERE]: { checked: false, disabled: disabled },
         },
       },
       [DENSITY]: {
         [RIGHT]: {
-          [MOD]: { checked: false, disabled: false },
-          [SEVERE]: { checked: false, disabled: false },
+          [MOD]: { checked: false, disabled: disabled },
+          [SEVERE]: { checked: false, disabled: disabled },
         },
         [LEFT]: {
-          [MOD]: { checked: false, disabled: false },
-          [SEVERE]: { checked: false, disabled: false },
+          [MOD]: { checked: false, disabled: disabled },
+          [SEVERE]: { checked: false, disabled: disabled },
         },
       },
     },
@@ -58,34 +59,34 @@ const getPCIObject = (title) => {
 
 export default function ShoulderTable() {
   const [crackingObject, setCrackingObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.CRACKING)
+    getPCIObject(PCI_OBJECT_TITLES.CRACKING, true)
   );
 
   const [pavementObject, setPavementObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.PAVEMENT_EDGE_OR_CURB_SEPARATION)
+    getPCIObject(PCI_OBJECT_TITLES.PAVEMENT_EDGE_OR_CURB_SEPARATION, true)
   );
 
   const [distortionObject, setDistortionObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.DISTORTION)
+    getPCIObject(PCI_OBJECT_TITLES.DISTORTION, true)
   );
 
   const [breakupOrSeparationObject, setBreakupOrSeparationObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.BREAKUP_OR_SEPARATION)
+    getPCIObject(PCI_OBJECT_TITLES.BREAKUP_OR_SEPARATION, true)
   );
 
   const [edgeBreakObject, setEdgeBreakObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.EDGE_BREAK)
+    getPCIObject(PCI_OBJECT_TITLES.EDGE_BREAK, true)
   );
 
   const [breakupObject, seTbreakupObject] = useState(
-    getPCIObject(PCI_OBJECT_TITLES.BREAKUP)
+    getPCIObject(PCI_OBJECT_TITLES.BREAKUP, true)
   );
-  const [dominationType, setDominationType] = useState({
-    PAVED_FULL: { title: "PAVE FULL", checked: false },
-    PAVED_PARTIAL: { title: "PAVE PARTIAL", checked: false },
-    SURFACE_TREATED: { title: "SURFACE THREATED", checked: false },
-    PRIMED: { title: "PRIMED", checked: false },
-    GRAVEL: { title: "GRAVEL", checked: false },
+  const [dominantType, setDominantType] = useState({
+    PAVED_FULL: "PAVE FULL",
+    PAVED_PARTIAL: "PAVE PARTIAL",
+    SURFACE_TREATED: "SURFACE THREATED",
+    PRIMED: "PRIMED",
+    GRAVEL: "GRAVEL",
   });
 
   const [selectedDominantType, setSelectedDominantType] = useState("");
@@ -149,7 +150,43 @@ export default function ShoulderTable() {
 
   const handleDominantTypeChange = (event) => {
     const value = event.target.value;
+    toggleCheckboxes(selectedDominantType, true);
+    if (value !== selectedDominantType) {
+      toggleCheckboxes(value, false);
+    }
     setSelectedDominantType(value === selectedDominantType ? "" : value);
+  };
+
+  const toggleCheckboxes = (type, disabled) => {
+    switch (type) {
+      case dominantType.PAVED_FULL:
+        setCrackingObject(getPCIObject(PCI_OBJECT_TITLES.CRACKING, disabled));
+        setPavementObject(
+          getPCIObject(
+            PCI_OBJECT_TITLES.PAVEMENT_EDGE_OR_CURB_SEPARATION,
+            disabled
+          )
+        );
+        break;
+      case dominantType.PAVED_PARTIAL:
+        setDistortionObject(
+          getPCIObject(PCI_OBJECT_TITLES.DISTORTION, disabled)
+        );
+        break;
+      case dominantType.SURFACE_TREATED:
+        setBreakupOrSeparationObject(
+          getPCIObject(PCI_OBJECT_TITLES.BREAKUP_OR_SEPARATION, disabled)
+        );
+        setEdgeBreakObject(
+          getPCIObject(PCI_OBJECT_TITLES.EDGE_BREAK, disabled)
+        );
+        break;
+      case dominantType.PRIMED:
+        seTbreakupObject(getPCIObject(PCI_OBJECT_TITLES.BREAKUP, disabled));
+        break;
+      default:
+        break;
+    }
   };
 
   const renderDominateTypeCheckbox = (rowSpan, value, activeDominantType) => {
@@ -231,10 +268,10 @@ export default function ShoulderTable() {
         </TableHead>
         <TableBody>
           <TableRow>
-            <TableCell rowSpan={2}>{dominationType.PAVED_FULL.title}</TableCell>
+            <TableCell rowSpan={2}>{dominantType.PAVED_FULL}</TableCell>
             {renderDominateTypeCheckbox(
               2,
-              dominationType.PAVED_FULL.title,
+              dominantType.PAVED_FULL,
               selectedDominantType
             )}
             <TableCell>{crackingObject.title}</TableCell>
@@ -282,10 +319,10 @@ export default function ShoulderTable() {
           </TableRow>
 
           <TableRow>
-            <TableCell>{dominationType.PAVED_PARTIAL.title}</TableCell>
+            <TableCell>{dominantType.PAVED_PARTIAL}</TableCell>
             {renderDominateTypeCheckbox(
               null,
-              dominationType.PAVED_PARTIAL.title,
+              dominantType.PAVED_PARTIAL,
               selectedDominantType
             )}
             <TableCell>{distortionObject.title}</TableCell>
@@ -316,12 +353,10 @@ export default function ShoulderTable() {
           </TableRow>
 
           <TableRow>
-            <TableCell rowSpan={3}>
-              {dominationType.SURFACE_TREATED.title}
-            </TableCell>
+            <TableCell rowSpan={3}>{dominantType.SURFACE_TREATED}</TableCell>
             {renderDominateTypeCheckbox(
               3,
-              dominationType.SURFACE_TREATED.title,
+              dominantType.SURFACE_TREATED,
               selectedDominantType
             )}
           </TableRow>
@@ -381,10 +416,10 @@ export default function ShoulderTable() {
           </TableRow>
 
           <TableRow>
-            <TableCell> {dominationType.PRIMED.title}</TableCell>
+            <TableCell> {dominantType.PRIMED}</TableCell>
             {renderDominateTypeCheckbox(
               null,
-              dominationType.PRIMED.title,
+              dominantType.PRIMED,
               selectedDominantType
             )}
 
@@ -395,10 +430,10 @@ export default function ShoulderTable() {
             {renderCheckboxes(breakupObject, DENSITY, LEFT, seTbreakupObject)}
           </TableRow>
           <TableRow>
-            <TableCell>{dominationType.GRAVEL.title}</TableCell>
+            <TableCell>{dominantType.GRAVEL}</TableCell>
             {renderDominateTypeCheckbox(
               null,
-              dominationType.GRAVEL.title,
+              dominantType.GRAVEL,
               selectedDominantType
             )}
           </TableRow>
