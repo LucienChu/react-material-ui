@@ -1,0 +1,38 @@
+// .wrapper {
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+// .image {
+//   width: 10%;
+//   @media screen and (max-width: 1024px) {
+//     width: 200px;
+//   }
+//   @media screen and (max-width: 768px) {
+//     width: 130px;
+//   }
+//   @media screen and (max-width: 425px) {
+//     width: 50px;
+//   }
+// }
+
+.title {
+  //   margin-left: 2rem;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+  color: #ffffff;
+  font-size: 2rem;
+  @media screen and (max-width: 1440px) {
+    font-size: 1.775rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 1.275rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 0.725rem;
+  }
+}
