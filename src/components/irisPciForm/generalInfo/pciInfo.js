@@ -1,6 +1,5 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-
 import TextField from "@material-ui/core/TextField";
 
 const renderTextField = (id, label, onChangeFunction, variant) => {
@@ -16,22 +15,22 @@ const renderTextField = (id, label, onChangeFunction, variant) => {
   );
 };
 
-export const LucienGrid = () => {
+export const PCIInfo = () => {
   return (
     <Grid container justify="center">
       {/* first row */}
       <Grid container justify="center" spacing={3}>
-        <Grid item sm={5} xs={10}>
+        <Grid item xs={11}>
           {renderTextField("startFrom", "From", () => console.log("changed"))}
         </Grid>
-        <Grid item sm={5} xs={10}>
+        <Grid item xs={11}>
           {renderTextField("endTo", "To")}
         </Grid>
       </Grid>
 
       {/* second row */}
       <Grid container justify="center">
-        <Grid item container justify="space-between" sm={5} xs={10}>
+        <Grid item container justify="space-between" sm={8} xs={11}>
           <Grid item sm={3} xs={12}>
             {renderTextField(
               "LHRSBeginTextField",
@@ -57,7 +56,7 @@ export const LucienGrid = () => {
             )}
           </Grid>
         </Grid>
-        <Grid item container justify="flex-end" sm={5} xs={10}>
+        <Grid item container justify="flex-end" sm={3} xs={11}>
           <Grid item sm={6} xs={12}>
             {renderTextField("districtTextField", "District", null, "outlined")}
           </Grid>
@@ -66,7 +65,7 @@ export const LucienGrid = () => {
 
       {/* third row */}
       <Grid container justify="center">
-        <Grid item container justify="space-between" sm={5} xs={10}>
+        <Grid item container justify="space-between" xs={11}>
           <Grid item sm={6} xs={12}>
             Survey Date
           </Grid>
@@ -79,8 +78,8 @@ export const LucienGrid = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item container justify="flex-end" sm={5} xs={10}>
-          <Grid item sm={9} xs={12}>
+        <Grid item container justify="flex-end" xs={11}>
+          <Grid item xs={12}>
             <Grid item container justify="space-between">
               <Grid item xs={6}>
                 {renderTextField(
@@ -99,7 +98,7 @@ export const LucienGrid = () => {
 
       {/* fourth row */}
       <Grid container justify="center">
-        <Grid item container justify="space-between" xs={10}>
+        <Grid item container justify="space-between" xs={11}>
           <Grid item sm={2} xs={12}>
             {renderTextField("contractNumberTextField", "Contract No.", null)}
           </Grid>
