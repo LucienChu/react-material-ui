@@ -4,6 +4,7 @@ import { PCIInfo } from "../generalInfo/pciInfo";
 import PavementTBL from "../tables/pavementTable";
 import logo from "../ministry_of_transportation.png";
 import LogoAndTitle from "../logoAndTitle/logoAndTitle";
+import ShoulderBTL from "../tables/shoulderTable";
 const Divider = (props) => {
   const { v, h } = props;
   return <div style={{ width: "100%", margin: `${v}rem ${h}rem` }}></div>;
@@ -52,7 +53,7 @@ export default function ImageInfo() {
             </Grid>
             <Grid item container direction="column" md={5} sm={10}>
               <Grid item>
-                <PavementTBL />
+                <ShoulderBTL />
               </Grid>
               <Grid item>
                 <PavementTBL />
