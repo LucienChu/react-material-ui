@@ -14,6 +14,7 @@ import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 import MenuItem from "@material-ui/core/MenuItem";
+import Divider from "../../../UI/divider";
 
 const trafficDirections = [
   "N / A",
@@ -41,7 +42,7 @@ const classes = [
   "S: SECONDARY",
 ];
 const rowStyle = {
-  padding: "2rem 1rem",
+  padding: "0 2rem 0.5rem",
 };
 
 const INT_TESTER = new RegExp(/^-?\d*$/);
@@ -99,95 +100,73 @@ export default function GeneralInfo() {
   // };
 
   return (
-    <div>
-      <Grid
-        spacing={2}
-        item
-        container
-        justify="center"
-        alignItems="center"
-        style={rowStyle}
-      >
-        <Grid item sm={1} xs={2}>
-          <p className={styles.title}>Locatiion</p>
+    <Grid container style={{ padding: "2rem" }}>
+      <Grid item container justify="space-between" style={rowStyle} spacing={2}>
+        <Grid item sm={6} xs={12}>
+          <FormControl fullWidth>
+            <InputLabel>From</InputLabel>
+            <Input
+              id="locationFrom"
+              value={startLocation}
+              onChange={(event) => setStartLocation(event.target.value)}
+            />
+          </FormControl>
+          <Divider height={1} />
         </Grid>
-        <Grid item sm={11} xs={10}>
-          <Grid item container justify="space-between" spacing={2}>
-            <Grid item xs={6}>
-              <FormControl fullWidth>
-                <InputLabel>From</InputLabel>
-                <Input
-                  id="locationFrom"
-                  value={startLocation}
-                  onChange={(event) => setStartLocation(event.target.value)}
-                />
-              </FormControl>
-            </Grid>
-            <Grid item xs={6}>
-              <FormControl fullWidth>
-                <InputLabel>To</InputLabel>
-                <Input
-                  id="locationTo"
-                  aria-describedby="component-helper-text"
-                  onChange={(event) => setEndLocation(event.target.value)}
-                />
-              </FormControl>
-            </Grid>
-          </Grid>
+        <Grid item sm={6} xs={12}>
+          <FormControl fullWidth>
+            <InputLabel>To</InputLabel>
+            <Input
+              id="locationTo"
+              aria-describedby="component-helper-text"
+              onChange={(event) => setEndLocation(event.target.value)}
+            />
+          </FormControl>
+          <Divider height={1} />
         </Grid>
       </Grid>
-      <Grid
-        item
-        container
-        spacing={2}
-        style={rowStyle}
-        justify="space-between"
-        className={styles.formRow}
-      >
-        <Grid item container md={4} sm={6} xs={12}>
-          <Grid item xs={2}>
-            <p>LHRS</p>
+      <Grid item container style={rowStyle} justify="space-between">
+        <Grid item container justify="space-between" md={5} sm={12} spacing={2}>
+          <Grid item xs={6}>
+            <FormControl fullWidth>
+              <InputLabel>LHRS Begins</InputLabel>
+              <Input
+                id="LHRSBeginTextField"
+                aria-describedby="LHRS-begin-input"
+                inputProps={{
+                  "aria-label": "weight",
+                }}
+                value={LHRSBegin}
+              />
+            </FormControl>
+            <Divider height={1} />
           </Grid>
-          <Grid item xs={10}>
-            <Grid item container justify="space-around">
-              <Grid item xs={5}>
-                <FormControl>
-                  <Input
-                    id="LHRSBeginTextField"
-                    aria-describedby="LHRS-begin-input"
-                    inputProps={{
-                      "aria-label": "weight",
-                    }}
-                    value={LHRSBegin}
-                  />
-                  <FormHelperText id="LHRS-begin-helper-text">
-                    BEGINS
-                  </FormHelperText>
-                </FormControl>
-              </Grid>
-              <Grid item xs={5}>
-                <FormControl>
-                  <Input
-                    id="LHRSOffsetTextField"
-                    endAdornment={
-                      <InputAdornment position="end">km</InputAdornment>
-                    }
-                    aria-describedby="LHRS-Offset-input"
-                  />
-                  <FormHelperText id="LHRS-Offset-helper-text">
-                    OFFSET
-                  </FormHelperText>
-                </FormControl>
-              </Grid>
-            </Grid>
+          <Grid item xs={6}>
+            <FormControl fullWidth>
+              <InputLabel>LHRS Offset</InputLabel>
+              <Input
+                id="LHRSOffsetTextField"
+                endAdornment={
+                  <InputAdornment position="end">km</InputAdornment>
+                }
+                aria-describedby="LHRS-Offset-input"
+              />
+            </FormControl>
+            <Divider height={1} />
           </Grid>
         </Grid>
-        <Grid item container md={4} sm={6} xs={12}>
-          <Grid item xs={4}>
-            <p>Section length</p>
-          </Grid>
-          <Grid item xs={8}>
+        <Grid
+          item
+          container
+          md={5}
+          sm={12}
+          justify="space-between"
+          spacing={2}
+          className={styles.formRow}
+        >
+          <Grid item md={5} xs={6}>
             <FormControl fullWidth>
+              <InputLabel>Section Length</InputLabel>
               <Input
                 id="sectionLengthTextInput"
                 endAdornment={
@@ -198,18 +177,12 @@ export default function GeneralInfo() {
                   "aria-label": "weight",
                 }}
               />
-              <FormHelperText id="section-length-input-helper-text">
-                LENGTH
-              </FormHelperText>
             </FormControl>
+            <Divider height={1} />
           </Grid>
-        </Grid>
-        <Grid item container md={4} xs={12} justify="flex-end">
-          <Grid item md={2} xs={4}>
-            <p>District</p>
-          </Grid>
-          <Grid item md={6} xs={8}>
+          <Grid item md={3} xs={6}>
             <FormControl fullWidth>
+              <InputLabel>District</InputLabel>
               <Input
                 id="districtTextField"
                 aria-describedby="district-input"
@@ -219,22 +192,19 @@ export default function GeneralInfo() {
                 }
               />
             </FormControl>
+            <Divider height={1} />
           </Grid>
         </Grid>
       </Grid>
       <Grid
         item
         container
-        spacing={2}
         style={rowStyle}
         alignItems="center"
         justify="space-between"
       >
-        <Grid item container md={3} alignItems="flex-end">
-          <Grid item xs={5}>
-            Survey Date
-          </Grid>
-          <Grid item xs={7}>
+        <Grid item container justify="space-between" md={6}>
+          <Grid item xs={3}>
             <input
               style={{ fontSize: "1.25rem" }}
               type="date"
@@ -246,15 +216,11 @@ export default function GeneralInfo() {
               onChange={(value) => handleSelectedValue(value, setSelectedDate)}
             />
           </Grid>
-        </Grid>
-        <Grid item container md={5} spacing={3}>
-          <Grid item xs={6}>
+          <Grid item xs={3}>
             <Grid item container alignItems="center">
-              <Grid item xs={2}>
-                PCR
-              </Grid>
               <Grid item xs={10}>
                 <FormControl fullWidth>
+                  <InputLabel>PCR</InputLabel>
                   <Input
                     id="locationFrom"
                     value={PCR}
@@ -267,13 +233,11 @@ export default function GeneralInfo() {
             </Grid>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={3}>
             <Grid item container alignItems="center">
-              <Grid item xs={2}>
-                RCR
-              </Grid>
               <Grid item xs={10}>
                 <FormControl fullWidth>
+                  <InputLabel>RCR</InputLabel>
                   <Input
                     id="locationFrom"
                     value={RCR}
@@ -286,7 +250,14 @@ export default function GeneralInfo() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item container alignItems="center" md={4} spacing={3}>
+        <Grid
+          item
+          container
+          spacing={2}
+          alignItems="center"
+          md={5}
+          justify="space-between"
+        >
           <Grid item xs={5}>
             <TextField
               fullWidth
@@ -304,16 +275,10 @@ export default function GeneralInfo() {
           </Grid>
 
           <Grid item xs={7}>
-            <Grid item container alignItems="center">
-              <Grid item md={5} sm={3} xs={4}>
-                Heightway
-              </Grid>
-              <Grid item md={7} sm={9} xs={8}>
-                <FormControl fullWidth>
-                  <Input id="locationFrom" />
-                </FormControl>
-              </Grid>
-            </Grid>
+            <FormControl fullWidth>
+              <InputLabel>Highway</InputLabel>
+              <Input id="locationFrom" />
+            </FormControl>
           </Grid>
         </Grid>
       </Grid>
@@ -325,92 +290,68 @@ export default function GeneralInfo() {
         alignItems="center"
         justify="space-between"
       >
-        <Grid item md={4} xs={6}>
-          <Grid item container alignItems="flex-end">
-            <Grid item xs={4}>
-              Contract No.
-            </Grid>
-            <Grid item xs={8}>
-              <FormControl fullWidth>
-                <Input
-                  id="locationFrom"
-                  value={contractNumber}
-                  onChange={(event) =>
-                    handleNumberChanged(
-                      event,
-                      contractNumber,
-                      INT_TESTER,
-                      setContractNumber
-                    )
-                  }
-                />
-              </FormControl>
-            </Grid>
-          </Grid>
+        <Grid item sm={3} xs={6}>
+          <FormControl fullWidth>
+            <InputLabel>Contract No.</InputLabel>
+            <Input
+              id="locationFrom"
+              value={contractNumber}
+              onChange={(event) =>
+                handleNumberChanged(
+                  event,
+                  contractNumber,
+                  INT_TESTER,
+                  setContractNumber
+                )
+              }
+            />
+          </FormControl>
+        </Grid>
+        <Grid item sm={3} xs={6}>
+          <FormControl fullWidth>
+            <InputLabel>WP. No</InputLabel>
+            <Input
+              id="locationFrom"
+              value={WPNumber}
+              onChange={(event) =>
+                handleNumberChanged(event, WPNumber, INT_TESTER, setWPNumber)
+              }
+            />
+          </FormControl>
         </Grid>
 
-        <Grid item md={4} xs={6}>
-          <Grid item container alignItems="flex-end">
-            <Grid item xs={3}>
-              WP No.
-            </Grid>
-            <Grid item xs={9}>
-              <FormControl fullWidth>
-                <Input
-                  id="locationFrom"
-                  value={WPNumber}
-                  onChange={(event) =>
-                    handleNumberChanged(
-                      event,
-                      WPNumber,
-                      INT_TESTER,
-                      setWPNumber
-                    )
-                  }
-                />
-              </FormControl>
-            </Grid>
-          </Grid>
+        <Grid item sm={3} xs={6}>
+          <TextField
+            fullWidth
+            id="facilitySelector"
+            select
+            label="Facility"
+            value={facility}
+          >
+            {facilities.map((facility, index) => (
+              <MenuItem key={index} value={facility}>
+                {facility}
+              </MenuItem>
+            ))}
+          </TextField>
         </Grid>
-
-        <Grid item md={4} xs={12}>
-          <Grid item container spacing={2}>
-            <Grid item xs={6}>
-              <TextField
-                fullWidth
-                id="facilitySelector"
-                select
-                label="Facility"
-                value={facility}
-              >
-                {facilities.map((facility, index) => (
-                  <MenuItem key={index} value={facility}>
-                    {facility}
-                  </MenuItem>
-                ))}
-              </TextField>
-            </Grid>
-            <Grid item xs={6}>
-              <TextField
-                fullWidth
-                id="classSelector"
-                select
-                label="Class"
-                value={selectedClass}
-                onChange={(event) =>
-                  handleSelectedValue(event, setSelectedClass)
-                }
-              >
-                {classes.map((classType, index) => (
-                  <MenuItem key={index} value={classType}>
-                    {classType}
-                  </MenuItem>
-                ))}
-              </TextField>
-            </Grid>
-          </Grid>
+        <Grid item sm={3} xs={6}>
+          <TextField
+            fullWidth
+            id="classSelector"
+            select
+            label="Class"
+            value={selectedClass}
+            onChange={(event) => handleSelectedValue(event, setSelectedClass)}
+          >
+            {classes.map((classType, index) => (
+              <MenuItem key={index} value={classType}>
+                {classType}
+              </MenuItem>
+            ))}
+          </TextField>
         </Grid>
       </Grid>
-    </div>
+    </Grid>
   );
 }

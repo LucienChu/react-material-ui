@@ -1,0 +1,4259 @@
+"results": [
+    {
+        "id": 1,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.82745933532715,
+                "acc_y": -0.0436594896018505,
+                "acc_z": -1.08069479465485
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 2,
+                "name": "(P)Pothole paved surface",
+                "enabled": "Y"
+            },
+            {
+                "id": 3,
+                "name": "(PN)Pothole non-paved",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-05-23T11:30:40.900574-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4403311,
+        "longitude": -79.7687601,
+        "location": null,
+        "heading": 109.46297454834,
+        "address": "2293 Fairmount Dr, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172128.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ba3ba3d5d5209c9c7ec16d82819923ebfd3e1d1b1f90ec90dac387e18dc6cb",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 2,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.181902885437,
+                "acc_y": -0.192073360085487,
+                "acc_z": -1.61624789237976
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 2,
+                "name": "(P)Pothole paved surface",
+                "enabled": "Y"
+            },
+            {
+                "id": 3,
+                "name": "(PN)Pothole non-paved",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-05-22T14:08:06.885829-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4402788,
+        "longitude": -79.7688462,
+        "location": null,
+        "heading": 213.080444335938,
+        "address": "2293 Fairmount Dr, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a9f096cfa9f295b1d03328b607ff1cdd935bc18a3131fc4915c2879719a194b6",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 3,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0674724578857,
+                "acc_y": -1.88539898395538,
+                "acc_z": -1.81035184860229
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T13:39:06.369450-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "Y",
+        "latitude": 43.4402272,
+        "longitude": -79.7690465,
+        "location": null,
+        "heading": 310.976226806641,
+        "address": "2387 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172138.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=079061a6b4aa168a0c5200050ddddc5f31d2125792358fedb3f9fb90ae46b1a7",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 4,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.44318962097168,
+                "acc_y": 4.00081062316895,
+                "acc_z": -0.705250084400177
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 8,
+                "name": "(B)Bridge Deck Spall",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T14:02:07.551929-04:00",
+        "comment": "better",
+        "pci": 20,
+        "edited": "Y",
+        "latitude": 43.440474,
+        "longitude": -79.7694521,
+        "location": null,
+        "heading": 277.077697753906,
+        "address": "2399 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:44-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172144.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=06a01cc56bbb7b0c2d1b9c1066a995e3a0287e8330f57104bcf690bb7d903df6",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 5,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.64462089538574,
+                "acc_y": -0.28010493516922,
+                "acc_z": -1.93974912166595
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T14:02:16.819231-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "Y",
+        "latitude": 43.4404248,
+        "longitude": -79.7698703,
+        "location": null,
+        "heading": 216.004272460938,
+        "address": "2502 Millstone Dr, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172148.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f86ecfcfa04e57492b4153a3cb735ab12f1af1a9b2c0e710e3c6ecdeb452cba",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 6,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.54597949981689,
+                "acc_y": -0.505893886089325,
+                "acc_z": -1.33814179897308
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:07.777026-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4399896,
+        "longitude": -79.7702277,
+        "location": null,
+        "heading": 214.000915527344,
+        "address": "2433 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172153.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc50e180303e045a896552a2630f6d372773533aac60c0ef6dc366036c2aa612",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 7,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2976741790771,
+                "acc_y": -0.267326146364212,
+                "acc_z": 0.911121726036072
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-27T15:51:33.825153-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4395815,
+        "longitude": -79.7705734,
+        "location": null,
+        "heading": 215.9384765625,
+        "address": "2453 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:21:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172158.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ea4218aa92a7e52cbf6bf964f4b9bd434419ab93b7416b38af3535a4aa3717e2",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 8,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.64570140838623,
+                "acc_y": -0.218194410204887,
+                "acc_z": -2.12624764442444
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-27T15:54:31.630961-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4393424,
+        "longitude": -79.7707882,
+        "location": null,
+        "heading": 214.993804931641,
+        "address": "2465 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17223.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26be060a343b282a126a344c14fb6e31edbbc41bfce674ee1fb43cd4bfaed01c",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 9,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.46516418457031,
+                "acc_y": -1.16090059280396,
+                "acc_z": -1.22417783737183
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-27T15:59:48.114971-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4392202,
+        "longitude": -79.7708734,
+        "location": null,
+        "heading": 215.002349853516,
+        "address": "2473 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17228.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8f35fec4eec6d9659cf2fdd5e1761f63a6dc27447da1cb9397883718f8e53e73",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "R",
+        "auditor": null
+    },
+    {
+        "id": 10,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.9507999420166,
+                "acc_y": -1.30477428436279,
+                "acc_z": -1.5891398191452
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-27T16:04:58.263999-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4392147,
+        "longitude": -79.7708691,
+        "location": null,
+        "heading": 215.001800537109,
+        "address": "2469 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:11-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ea07a593de12bb405c85c8a9ea89c4483ef8828901ca9be0e4664930c633c928",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 11,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.87728977203369,
+                "acc_y": -0.404710799455643,
+                "acc_z": 0.394702762365341
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [
+            {
+                "id": 7,
+                "issue": "Unsafe Waste Issue",
+                "enabled": "Y"
+            }
+        ],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:08.982262-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4390188,
+        "longitude": -79.7710449,
+        "location": null,
+        "heading": 223.996276855469,
+        "address": "2481 Kwinter Rd, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172213.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d246f41089a6b0aae920d3fdcfa9aa32162620e7b848f7d77838cb709ec16cbe",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 12,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.65176963806152,
+                "acc_y": -0.548890948295593,
+                "acc_z": -2.55687189102173
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 5,
+                "name": "(SD)Shoulder Drop-off",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-27T16:06:10.366284-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4388968,
+        "longitude": -79.7712305,
+        "location": null,
+        "heading": 261.995025634766,
+        "address": "2394 Millstone Dr, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172218.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5360ae215003bc56eba174e47bff37a97760e983db843ffc489b43fe2d2740b7",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 13,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.57583236694336,
+                "acc_y": -1.63162064552307,
+                "acc_z": -1.77387642860413
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T17:50:10.132000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4389027,
+        "longitude": -79.7712317,
+        "location": null,
+        "heading": 261.995178222656,
+        "address": "2394 Millstone Dr, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:19-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172219.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2107145e7d0222b50ddab82cf766d39a9a0d8c626811aa1140d601b2c2a2c7fa",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 14,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.81457710266113,
+                "acc_y": -0.222927689552307,
+                "acc_z": -1.74256360530853
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-12T19:49:00.857000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4389246,
+        "longitude": -79.7714599,
+        "location": null,
+        "heading": 295.999847412109,
+        "address": "2402 Millstone Dr, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172223.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b8ab015c294bd8ca33a75b35828bf85d5627ce7d3dcd8d7747c7021fddd7dcb8",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 15,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.9340991973877,
+                "acc_y": -3.1813178062439,
+                "acc_z": -1.9504646062851
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [
+            {
+                "id": 8,
+                "issue": "Ongoing residential construction works",
+                "enabled": "Y"
+            }
+        ],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T10:03:09.032639-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4391145,
+        "longitude": -79.771839,
+        "location": null,
+        "heading": 317.768676757812,
+        "address": "2410 Millstone Dr, Oakville, ON L6M 0K6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:30-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172230.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e441a0ce6876fb3cd71038f12a15a9508945ea9d98f1e14f3af1b60018ec3912",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 16,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.84628963470459,
+                "acc_y": -0.0134435500949621,
+                "acc_z": -2.40094709396362
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [
+            {
+                "id": 4,
+                "issue": "Road Hazard",
+                "enabled": "Y"
+            }
+        ],
+        "damage_type": [
+            {
+                "id": 6,
+                "name": "(C)Crack",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:10.375531-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4393743,
+        "longitude": -79.7719281,
+        "location": null,
+        "heading": 36.9957847595215,
+        "address": "2394 Dundas St W, Oakville, ON L6M 4J3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172233.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6ff9104cbb33609ebac25c990a771c51b19164a6803d983b8966eca380041ca4",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 17,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.8215389251709,
+                "acc_y": -0.377037584781647,
+                "acc_z": -1.46233296394348
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [
+            {
+                "id": 2,
+                "issue": "Trash on Sidewalk/Road",
+                "enabled": "Y"
+            }
+        ],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T10:03:07.659975-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4397291,
+        "longitude": -79.7715175,
+        "location": null,
+        "heading": 36.0002632141113,
+        "address": "2439 Millstone Dr, Oakville, ON L6M 0H6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172238.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d8980234ff957894334dc5b741f216b336c329c01240d1017f0500eacfa2013e",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 18,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1003170013428,
+                "acc_y": 0.0819817036390305,
+                "acc_z": -0.639512836933136
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T18:43:15.660198-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4401247,
+        "longitude": -79.7710864,
+        "location": null,
+        "heading": 36.0000343322754,
+        "address": "2467 Millstone Dr, Oakville, ON L6M 0H6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172243.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=767251fd768e59876b7c7752f0cfbd95778ff33ff39412da54c55e6d68fa9e32",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 19,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2104120254517,
+                "acc_y": -0.729814648628235,
+                "acc_z": 0.155819311738014
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:18:06.136000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4405118,
+        "longitude": -79.7707032,
+        "location": null,
+        "heading": 33.9996109008789,
+        "address": "2483 Millstone Dr, Oakville, ON L6M 0H6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172248.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f052ac1fe48983ff4bb21077224abf9a6ed8fbe6d18a4e8f6579af212d9beb0a",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 20,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.76639747619629,
+                "acc_y": -1.55345594882965,
+                "acc_z": -1.74532830715179
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T21:33:58.308761-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4406948,
+        "longitude": -79.770411,
+        "location": null,
+        "heading": 124.75407409668,
+        "address": "2484 Millstone Dr, Oakville, ON L6M 0H6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172253.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=55b5d55f5b7b5018bbe2c620244b47b2a92debbe0989fdc691e3cdd235172965",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 21,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1206712722778,
+                "acc_y": -0.213093683123589,
+                "acc_z": 0.358575820922852
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:12.044730-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4404573,
+        "longitude": -79.7700823,
+        "location": null,
+        "heading": 133.964614868164,
+        "address": "2496 Millstone Dr, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:22:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172258.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a0776f1c1795370cb8ca26acce49a1602e8cfc04158bbc9255f10c644d6057fc",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "RY",
+        "auditor": null
+    },
+    {
+        "id": 22,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2006406784058,
+                "acc_y": -1.16252481937408,
+                "acc_z": -1.29718518257141
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T17:52:02.905000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.440225,
+        "longitude": -79.7698262,
+        "location": null,
+        "heading": 129.000091552734,
+        "address": "2422 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17233.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=88bf0ee80e668b69202b4d1332da3e99a4b0ccaeebe19bbf7994b9df6ed723d7",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 23,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.89333629608154,
+                "acc_y": -0.0458678230643272,
+                "acc_z": -2.41689276695251
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-12T20:26:39.170000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4402197,
+        "longitude": -79.7697659,
+        "location": null,
+        "heading": 33.004337310791,
+        "address": "2422 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17238.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d2b6fc9892de1f8cf7034f4ea2b71633c5ed39c53fd0366bba6008a6c388e6e",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 24,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.87687397003174,
+                "acc_y": -0.796319663524628,
+                "acc_z": 0.174389585852623
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:43:10.978000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4403902,
+        "longitude": -79.7696154,
+        "location": null,
+        "heading": 40.9774131774902,
+        "address": "2500 Millstone Dr, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172313.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e3528771bc4fc260608775502739bd2010bfd9f4fb41522f49805feef8ddb010",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 25,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.68211078643799,
+                "acc_y": -1.38335371017456,
+                "acc_z": -1.94022011756897
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:43:44.468000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.44053,
+        "longitude": -79.7693903,
+        "location": null,
+        "heading": 105.058975219727,
+        "address": "2399 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172318.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=215684fa29be76e820f6d14c28313d89a92a110d84977801860076310801b9cc",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 26,
+        "accelerometer_info": [
+            {
+                "acc_x": 11.4432439804077,
+                "acc_y": 0.0125868897885084,
+                "acc_z": -1.50509357452393
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:14.043963-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4403192,
+        "longitude": -79.7690642,
+        "location": null,
+        "heading": 133.998291015625,
+        "address": "2387 Kwinter Rd, Oakville, ON L6M 0H5, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172323.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6c7f6f5868a1211acbbc3d2eeafc322788f4cb5df1829cf4ac5c71303c14b479",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 27,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.73247623443604,
+                "acc_y": 0.00216421997174621,
+                "acc_z": -1.74791657924652
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-16T14:40:03.171878-04:00",
+        "comment": "better",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4399371,
+        "longitude": -79.7686243,
+        "location": null,
+        "heading": 134.001205444336,
+        "address": null,
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:29-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172329.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0d65398b8ad07d794ec03b2eb3e35ebd7f040fcf4fe3538551e07f0eb5acd54f",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 28,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.74324607849121,
+                "acc_y": -0.723079264163971,
+                "acc_z": -1.08150124549866
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-12T20:26:40.012000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4395666,
+        "longitude": -79.7681211,
+        "location": null,
+        "heading": 132.000427246094,
+        "address": "2354 Kwinter Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:34-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172334.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5df1ac347af35d7626facbc745be098dd973aa36add00b2ac21b838fa0dac1ba",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 29,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0306253433228,
+                "acc_y": -0.380636066198349,
+                "acc_z": -1.00171387195587
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-16T07:41:23.323876-04:00",
+        "comment": "better",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4392336,
+        "longitude": -79.7676335,
+        "location": null,
+        "heading": 133.999450683594,
+        "address": "2337 Kwinter Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172338.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ae8ede9dc706a1a56c205f03be418878436d9ef928cd45145f45786b8181fb13",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 30,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1964044570923,
+                "acc_y": -0.635390222072601,
+                "acc_z": 0.996665000915527
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [
+            {
+                "id": 2,
+                "issue": "Trash on Sidewalk/Road",
+                "enabled": "Y"
+            }
+        ],
+        "damage_type": [
+            {
+                "id": 6,
+                "name": "(C)Crack",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T10:03:00.995718-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4388697,
+        "longitude": -79.7671419,
+        "location": null,
+        "heading": 133.999816894531,
+        "address": "2309 Kwinter Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172343.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=073b08480ef2bc5b3081e246b86f4dca00b97fa6f1b53d76830ee10fcbe6787c",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 31,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.98514461517334,
+                "acc_y": -1.10750758647919,
+                "acc_z": -1.03901398181915
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:15.918800-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.438669,
+        "longitude": -79.766876,
+        "location": null,
+        "heading": 141.999450683594,
+        "address": "2365 Pine Glen Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172348.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eb276ebc5e337f96358bec15ebc0defe3104cfec6729422208089fed5c46b75a",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 32,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.5405101776123,
+                "acc_y": -0.741601884365082,
+                "acc_z": -2.89435315132141
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T10:03:10.967270-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4386211,
+        "longitude": -79.7668329,
+        "location": null,
+        "heading": 143.999618530273,
+        "address": "2373 Pine Glen Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172353.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ffbd99e8d4a2f6378b77d9254054808c2eb2c8cb529fb70cc09c53f4f2580801",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 33,
+        "accelerometer_info": [
+            {
+                "acc_x": 8.97112560272217,
+                "acc_y": -3.989426612854,
+                "acc_z": -2.72799158096313
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-15T08:18:07.483000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4386263,
+        "longitude": -79.7668413,
+        "location": null,
+        "heading": 143.999588012695,
+        "address": "2373 Pine Glen Rd, Oakville, ON L6M 0H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:56-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172356.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=51e7b201c55ae6f4b5b8d6dc1c414dd66914cff949e581c2f8ad9a24eef27ff9",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 34,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.71965599060059,
+                "acc_y": -0.221224635839462,
+                "acc_z": -1.97265112400055
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 2,
+                "name": "(P)Pothole paved surface",
+                "enabled": "Y"
+            },
+            {
+                "id": 3,
+                "name": "(PN)Pothole non-paved",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-05-22T14:08:17.947131-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4385065,
+        "longitude": -79.76683,
+        "location": null,
+        "heading": 200.929290771484,
+        "address": null,
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:23:59-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172359.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d24860fccec1e02a13b1ea9e51f0f40747293b64d171f1ea85d41384297e2e12",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 35,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3397636413574,
+                "acc_y": -0.456686675548553,
+                "acc_z": -0.7562335729599
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-15T08:21:29.318000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4381574,
+        "longitude": -79.7672765,
+        "location": null,
+        "heading": 218.00080871582,
+        "address": "2265 Millstone Dr, Oakville, ON L6M 0H2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:04-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17244.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ff2e6e163f18bd8ec5fa4627d57aa8b1b4f4c9cdfe2398369b9700022651e3b0",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 36,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.046854019165,
+                "acc_y": -0.29691606760025,
+                "acc_z": -1.06919300556183
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 5,
+                "name": "(SD)Shoulder Drop-off",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-05-22T14:08:55.269017-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.437703,
+        "longitude": -79.7677664,
+        "location": null,
+        "heading": 217.000427246094,
+        "address": "Pine Glen Rd + Falling Green Dr, Oakville, ON L6M 0H1, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:09-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17249.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9139ee5a8af0f06a979a81a19f99b828f4dfdb325725c9e16fe2a22e79310501",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 37,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.68275260925293,
+                "acc_y": 0.0637581199407578,
+                "acc_z": -1.98887121677399
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:44:00.485000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4373026,
+        "longitude": -79.7682161,
+        "location": null,
+        "heading": 217.999969482422,
+        "address": "2400 Pine Glen Rd, Oakville, ON L6M 0G9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172413.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0b202283958164487d269b52621d16a19cca12e9656dcad15e149a1f9078ad13",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 38,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.70577049255371,
+                "acc_y": -0.34641045331955,
+                "acc_z": -1.27223944664001
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:44:03.168000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4368684,
+        "longitude": -79.7686879,
+        "location": null,
+        "heading": 217.005172729492,
+        "address": "2415 Pine Glen Rd, Oakville, ON L6M 0R6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172418.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9da6de969fc7ce01e86f603bbf3f08c592c3dd307cb683ae65d1ad84d6a8e8dc",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 39,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.180118560791,
+                "acc_y": -0.332300573587418,
+                "acc_z": -1.49679958820343
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T18:45:37.567000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4363964,
+        "longitude": -79.7691713,
+        "location": null,
+        "heading": 216.008010864258,
+        "address": "2435 Pine Glen Rd, Oakville, ON L6M 0R6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172423.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1017f7fffd428c3b31ccaa8bdf32e3e61ad8797882da6f30d14de68a9bdd5989",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 40,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.68501377105713,
+                "acc_y": -0.170424491167068,
+                "acc_z": -0.205118775367737
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-12T19:48:58.695000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4359409,
+        "longitude": -79.7696827,
+        "location": null,
+        "heading": 216.999084472656,
+        "address": "2463 Pine Glen Rd, Oakville, ON L6M 0R7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172428.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bbba2ea09306d19dc94e5d7aa01c2e52d33fdd829067dbc84c0a59a57f121175",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 41,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.95397758483887,
+                "acc_y": -0.249721929430962,
+                "acc_z": -1.74970698356628
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:17.859020-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4356479,
+        "longitude": -79.7700195,
+        "location": null,
+        "heading": 196.977874755859,
+        "address": "Pine Glen Rd + Grand Oak Trail, Oakville, ON L6M 0J3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172433.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2a26a1ae90825cfc6836c299db4d14eaf6a64a7879175666417da8a3e6181b0a",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 42,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.17367172241211,
+                "acc_y": -0.899823486804962,
+                "acc_z": -2.56239867210388
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-19T22:54:35.556485-04:00",
+        "comment": "better",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4356269,
+        "longitude": -79.7700112,
+        "location": null,
+        "heading": 218.003372192383,
+        "address": "Pine Glen Rd + Grand Oak Trail, Oakville, ON L6M 0J3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172438.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d50771c485d4aa77d60677c40d1fb7d434fbe5d37d813d25863db3a1c26de666",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 43,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.48250961303711,
+                "acc_y": -0.186279386281967,
+                "acc_z": -2.08935546875
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T21:34:00.246797-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4353298,
+        "longitude": -79.7703555,
+        "location": null,
+        "heading": 221.99983215332,
+        "address": "Pine Glen Rd + Grand Oak Trail, Oakville, ON L6M 0J3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172443.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7c8233bd250081fe8a0ca3f2cb0f96d7d4bbc8285f9c8362ff66dd562a9c810d",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 44,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.14257717132568,
+                "acc_y": -0.105747148394585,
+                "acc_z": -1.55722069740295
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T19:34:08.011000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4348686,
+        "longitude": -79.7709273,
+        "location": null,
+        "heading": 222.985412597656,
+        "address": "2501 Pine Glen Rd, Oakville, ON L6M 0R7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172448.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=73d5ce90c7a5a55cabd7fac13bfeab11dd384d92b0f0e4899d1ddbf87649956a",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 45,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3737230300903,
+                "acc_y": -0.167023941874504,
+                "acc_z": -1.1063220500946
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T19:34:09.011000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4343893,
+        "longitude": -79.7715432,
+        "location": null,
+        "heading": 223.000015258789,
+        "address": "2521 Pine Glen Rd, Oakville, ON L6M 0R7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172453.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4e64b1ff394150a46202e517647f7d7eafb1c6f510bed707b59c040796272dc4",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 46,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0209903717041,
+                "acc_y": -0.199049770832062,
+                "acc_z": -0.811425805091858
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:18.802572-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4338754,
+        "longitude": -79.7721883,
+        "location": null,
+        "heading": 223.999710083008,
+        "address": "Pine Glen Rd + Khalsa Gate, Oakville, ON L6M 4J2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:24:59-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172459.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=79692a6411ebf26b370116d6bcc594ca2d798422c94198a45453f0f3497975a2",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 47,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1905164718628,
+                "acc_y": -0.406423389911652,
+                "acc_z": 1.28683042526245
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T11:18:50.066114-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4334255,
+        "longitude": -79.772808,
+        "location": null,
+        "heading": 223.998184204102,
+        "address": "Pine Glen Rd + Old Bronte Rd, Oakville, ON L6M 4J2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:25:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17253.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0b0e6d667f9e93a028d1381302e08106415518fdd703a5a2a475ea4bc985c396",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 48,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.88594532012939,
+                "acc_y": -0.0872078314423561,
+                "acc_z": -1.50812578201294
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T19:34:12.932000-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4331897,
+        "longitude": -79.7731466,
+        "location": null,
+        "heading": 223.986923217773,
+        "address": "Pine Glen Rd + Old Bronte Rd, Oakville, ON L6M 4J2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:25:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17258.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3288f7eeafc104266b739ddde50d217014bc92e6fd5193faf74e6ced07ee889d",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 49,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.45938587188721,
+                "acc_y": -0.290810376405716,
+                "acc_z": -2.58317446708679
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-16T07:41:25.481529-04:00",
+        "comment": "better",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4331923,
+        "longitude": -79.7731553,
+        "location": null,
+        "heading": 220.000457763672,
+        "address": "2430 Hwy 25, Oakville, ON L6M 4J2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:25:14-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172514.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e732fa11130fea4c55667d701e7c0a030ef324258a2d125134e31f2d2bfdbd94",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 50,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.87785339355469,
+                "acc_y": -0.283167541027069,
+                "acc_z": -0.905590653419495
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-10T19:34:14.722000-04:00",
+        "comment": "better",
+        "pci": 20,
+        "edited": "N",
+        "latitude": 43.4329352,
+        "longitude": -79.7734479,
+        "location": null,
+        "heading": 218.001754760742,
+        "address": "2430 Old Bronte Rd, Oakville, ON L6M 4J2, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:25:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172518.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=12b78dabcbe80541dd03d1dda8364012cf0f4c8f52826c854f82a151f78aac47",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 51,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2190017700195,
+                "acc_y": -0.357516378164291,
+                "acc_z": 0.284593671560287
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-21T23:53:20.281757-04:00",
+        "comment": "better",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4325803,
+        "longitude": -79.7738498,
+        "location": null,
+        "heading": 218.998626708984,
+        "address": "3019 Pine Glen Rd, Oakville, ON L6M 4J3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:25:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172523.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bc041335bc060ab529f0f5ab4e6f9197de918b2fa37276cc88f6bb46c0ed54bf",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 52,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.92839813232422,
+                "acc_y": -0.206950113177299,
+                "acc_z": -0.843963921070099
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [
+            {
+                "id": 1,
+                "name": "None",
+                "enabled": "Y"
+            }
+        ],
+        "change_time": "2020-04-20T10:03:02.464520-04:00",
+        "comment": "better",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4308752,
+        "longitude": -79.7757856,
+        "location": null,
+        "heading": 221.705505371094,
+        "address": "2537 Valleyridge Dr, Oakville, ON L6M 5H4, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17268.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=05bb517dab41fb8aea295eb11468227ae31c39df8db4ce3ee1138d82f5d23450",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 53,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.48705291748047,
+                "acc_y": -0.522014796733856,
+                "acc_z": -1.89499342441559
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4308566,
+        "longitude": -79.7757755,
+        "location": null,
+        "heading": 193.006530761719,
+        "address": "3093 Highvalley Rd, Oakville, ON L6M 5H4, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172613.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0c50fa3e443df92b73222d448853897e10a9ef2a87edadaf81523570e8764240",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 54,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.62432861328125,
+                "acc_y": 0.574705958366394,
+                "acc_z": -2.14291024208069
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4307175,
+        "longitude": -79.7757028,
+        "location": null,
+        "heading": 128.006774902344,
+        "address": "2524 Valleyridge Dr, Oakville, ON L6M 5H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172618.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f6bb3c25fd21393d0394703d2c8cb454341e336fe282e4d4d033eae423fb161f",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 55,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.69495677947998,
+                "acc_y": -0.276770055294037,
+                "acc_z": -1.05689454078674
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-19T18:06:51.219643-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4304986,
+        "longitude": -79.7752461,
+        "location": null,
+        "heading": 125.001022338867,
+        "address": "2524 Valleyridge Dr, Oakville, ON L6M 5H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=46e610541015d6a4a1db8519f832038eb9e56226829557d47a85325bb8e5e08b",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 56,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.00510597229,
+                "acc_y": -0.150235757231712,
+                "acc_z": -1.02417016029358
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:21.660172-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4302318,
+        "longitude": -79.77472,
+        "location": null,
+        "heading": 129.998626708984,
+        "address": "2518 Valleyridge Dr, Oakville, ON L6M 5H3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172628.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b212c741f155fd7172e6dc971aaef33329aa4c22f234209b203d61aa7160cbeb",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 57,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0554676055908,
+                "acc_y": -0.0199864841997623,
+                "acc_z": -1.0819890499115
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4299391,
+        "longitude": -79.7742302,
+        "location": null,
+        "heading": 128.000778198242,
+        "address": null,
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172633.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=605b42f21f3b7afbb7d98212292ab44257c969ec94b176abb64a2bc10a3c19c2",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 58,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.85075187683105,
+                "acc_y": -0.189386829733849,
+                "acc_z": -1.48185181617737
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-20T21:34:01.380047-04:00",
+        "comment": "",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4296928,
+        "longitude": -79.7736955,
+        "location": null,
+        "heading": 102.005783081055,
+        "address": "2462 Valleyridge Dr, Oakville, ON L6M 5G9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172638.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4dd303f04cee2ffcee9ddd1137743dd081b18fcd69dfc5a7d6c7858ebccf099b",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 59,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.83671855926514,
+                "acc_y": -1.99757897853851,
+                "acc_z": -1.23586273193359
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4296053,
+        "longitude": -79.7730002,
+        "location": null,
+        "heading": 110.998229980469,
+        "address": "2450 Valleyridge Dr, Oakville, ON L6M 5G9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172643.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=395194ad8d9f5ba0c08aec52d059c64d501815bc9b1748baa07c32ddbe6548da",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 60,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.94380378723145,
+                "acc_y": -0.531641364097595,
+                "acc_z": -1.1324508190155
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-19T23:42:52.318119-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.429351,
+        "longitude": -79.7723908,
+        "location": null,
+        "heading": 148.987380981445,
+        "address": "2433 Valleyridge Dr, Oakville, ON L6M 5G7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172648.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=faffcbe290f603fdacfbc9a77da35953e05ddbd9b096fdc0e97f13e4df00f54e",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 61,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2124357223511,
+                "acc_y": 2.91840028762817,
+                "acc_z": -1.51014125347137
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:23.274522-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4289161,
+        "longitude": -79.7720091,
+        "location": null,
+        "heading": 113.006607055664,
+        "address": "2425 Valleyridge Dr, Oakville, ON L6M 5G7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172653.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f43332edacff5bfc4b2e949ec20fc8cacb793fef88726c0abd1067accc768149",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 62,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.4334583282471,
+                "acc_y": -0.24243800342083,
+                "acc_z": -0.532848358154297
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4287904,
+        "longitude": -79.7713608,
+        "location": null,
+        "heading": 92.0018310546875,
+        "address": "2410 Valleyridge Dr, Oakville, ON L6M 5C4, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:26:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172658.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da4699d4d6b7bf82c581e563cd62ed0e5d88d489832a439fdf47e15b6aed6e5b",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 63,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.055513381958,
+                "acc_y": -2.32874298095703,
+                "acc_z": -0.150658026337624
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.428744,
+        "longitude": -79.7707284,
+        "location": null,
+        "heading": 146.47151184082,
+        "address": "2409 Valleyridge Dr, Oakville, ON L6M 5C4, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17273.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fa52010d644995433beb83865c4493d7357b535f94a85c9e59f8bc50800c2a8b",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 64,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.78456592559814,
+                "acc_y": 0.00624740263447165,
+                "acc_z": -2.42145013809204
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-19T23:42:54.916842-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.428434,
+        "longitude": -79.7705604,
+        "location": null,
+        "heading": 169.997924804688,
+        "address": "2399 Valleyridge Dr, Oakville, ON L6M 5C4, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17278.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e09dcc0622684a3a3ca1a2c48e3cf1a13c340021d586eb2c9c5e33f591e9d4da",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 65,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3086042404175,
+                "acc_y": 1.3606790304184,
+                "acc_z": 0.355496466159821
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4281985,
+        "longitude": -79.7705574,
+        "location": null,
+        "heading": 146.101608276367,
+        "address": "2395 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172713.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=80f073fab8805657aad62dc73cb77a4796ddabfb3cb99907e309380d47523be6",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 66,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.4639739990234,
+                "acc_y": -0.934477150440216,
+                "acc_z": -0.128386959433556
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:24.372978-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4281099,
+        "longitude": -79.7704956,
+        "location": null,
+        "heading": 145.99919128418,
+        "address": "2391 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172718.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=83e22774dce9947d181b91a838717ca8f8acf8b56d96a61e54f25079b31547a9",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 67,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1034879684448,
+                "acc_y": -0.438976854085922,
+                "acc_z": -1.07288062572479
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.428118,
+        "longitude": -79.7705089,
+        "location": null,
+        "heading": 147.709732055664,
+        "address": "2391 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:19-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172719.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1e1f36cf05abda3d195d20c2b93767e8e38f2502d5a986d8638bcc8b91fcf96d",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 69,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.88262367248535,
+                "acc_y": -1.28570199012756,
+                "acc_z": -1.72759306430817
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-16T07:41:27.858434-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.428128,
+        "longitude": -79.7705888,
+        "location": null,
+        "heading": 276.005004882812,
+        "address": "2395 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172723_hKdQ3KD.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a500e5408e80b290ac44490eddeb38a207d101d4765bab81b0b13be3943d33cf",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 68,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.98689842224121,
+                "acc_y": -0.693775177001953,
+                "acc_z": -2.27803444862366
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.428126,
+        "longitude": -79.7705849,
+        "location": null,
+        "heading": 273.152130126953,
+        "address": "2391 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172723.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e025fd16579df17e4c9cdc0b28883759ec6a5ef11409fe5e8293f165798e5117",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 70,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.54204273223877,
+                "acc_y": -0.255666345357895,
+                "acc_z": -1.75108027458191
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4280074,
+        "longitude": -79.7706042,
+        "location": null,
+        "heading": 181.000366210938,
+        "address": "2394 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172728.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e129cfff51f428125166bce7bacbf54ac8dc5818c4be16f78f0bfb4a16f7e0cf",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 71,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.79864311218262,
+                "acc_y": 2.16519474983215,
+                "acc_z": -1.15226936340332
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:25.562677-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4277228,
+        "longitude": -79.7705837,
+        "location": null,
+        "heading": 138.560501098633,
+        "address": "2386 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172733.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9172d290f7e3263f68057d04af4577dac2b68e6e5671dadde52686a34d130e58",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 72,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0043544769287,
+                "acc_y": 0.160044953227043,
+                "acc_z": -1.28583836555481
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4276213,
+        "longitude": -79.7701208,
+        "location": null,
+        "heading": 89.0046234130859,
+        "address": "2370 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172738.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da8f665851779ce77327e5be321c6c6b3454053393e92c1535dcbd77ffb75277",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 73,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.5242719650269,
+                "acc_y": -1.20883536338806,
+                "acc_z": -0.953740775585175
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4276008,
+        "longitude": -79.7693875,
+        "location": null,
+        "heading": 104.992477416992,
+        "address": "2358 Valleyridge Dr, Oakville, ON L6M 5C3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172743.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=08b7eeb757a881b8ac6f96488861463cd436aed49d656f882f6165775a77ef40",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 74,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.8616304397583,
+                "acc_y": -0.765415787696838,
+                "acc_z": -1.24061751365662
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-20T21:34:02.391128-04:00",
+        "comment": "",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4274419,
+        "longitude": -79.7687428,
+        "location": null,
+        "heading": 122.997177124023,
+        "address": "2347 Valleyridge Dr, Oakville, ON L6M 5C1, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172748.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7cde7e8b4ba2d4c4eee13a9bc1b14ef61fbbe013ff2bce638ecdff34e1d294fc",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 75,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.4119930267334,
+                "acc_y": 0.284372866153717,
+                "acc_z": -0.883234798908234
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4271301,
+        "longitude": -79.7681248,
+        "location": null,
+        "heading": 113.001678466797,
+        "address": "2335 Valleyridge Dr, Oakville, ON L6M 5C1, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172753.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=35ab7cad727065a228bdbf942142494d22921e8c1767bea2c03133adf4b2e019",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 76,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0815095901489,
+                "acc_y": -0.711178719997406,
+                "acc_z": -0.088284932076931
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:26.618264-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4269429,
+        "longitude": -79.7675116,
+        "location": null,
+        "heading": 114.996612548828,
+        "address": "2318 Valleyridge Dr, Oakville, ON L6M 5C7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:27:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172758.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5d0c0937a79ad7cbce2f6a2d86e1ca38590e583e3198851b87401e94a5e66fda",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 77,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.68571090698242,
+                "acc_y": -0.419361501932144,
+                "acc_z": -2.46773934364319
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4268113,
+        "longitude": -79.7671478,
+        "location": null,
+        "heading": 128.978805541992,
+        "address": "3031 Richview Blvd, Oakville, ON L6M 5C7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17283.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f908bf5125592fc30a7f6eabb2ebf26c1f293c46313b1431064550a184c466f1",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 78,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0321245193481,
+                "acc_y": -1.38164961338043,
+                "acc_z": -3.21268582344055
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-19T23:42:52.459852-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4267196,
+        "longitude": -79.7671592,
+        "location": null,
+        "heading": 204.996887207031,
+        "address": "3030 Richview Blvd, Oakville, ON L6M 5E1, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17288.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a6873303c1d095e4cc7aa309aa29b2e3e5bebcdafc1e11a9ce7616f9518e74bf",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 79,
+        "accelerometer_info": [
+            {
+                "acc_x": 8.46558952331543,
+                "acc_y": 0.0101986797526479,
+                "acc_z": -2.22373747825623
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-16T07:41:28.914745-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4263972,
+        "longitude": -79.7674349,
+        "location": null,
+        "heading": 213.998016357422,
+        "address": "3030 Richview Blvd, Oakville, ON L6M 5E1, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172813.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=88fe09a80ef4334a071fd300c23c6260061582c1476f3b312efba65f02d70308",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 80,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0690689086914,
+                "acc_y": -0.269595801830292,
+                "acc_z": -0.955226242542267
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4259593,
+        "longitude": -79.7679097,
+        "location": null,
+        "heading": 215.998229980469,
+        "address": "2318 Valleyridge Dr, Oakville, ON L6M 5C7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172818.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bbe88eb0367b8b7689bd0e7199d3f661472580cc7d6c4a150d056f3e0a86fb44",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 81,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.54503917694092,
+                "acc_y": 0.253357917070389,
+                "acc_z": -0.678426265716553
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:27.941251-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4255298,
+        "longitude": -79.7684008,
+        "location": null,
+        "heading": 216.999801635742,
+        "address": "3071 Richview Blvd, Oakville, ON L6M 0A3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:23-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172823.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3278c39dd71b9abf5b1039aa8f3cfe60bad2a80ed90cc485ae8a7daf99a7a22a",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 82,
+        "accelerometer_info": [
+            {
+                "acc_x": 8.99806690216064,
+                "acc_y": -0.21639558672905,
+                "acc_z": -1.33104968070984
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4251247,
+        "longitude": -79.7688552,
+        "location": null,
+        "heading": 216.993835449219,
+        "address": "2193 Wuthering Heights Way, Oakville, ON L6M 0A3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172828.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=de30038592527de7c58037a12c8983889f059ebe581a265aa2e002783702201e",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 83,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.0976037979126,
+                "acc_y": -0.390301287174225,
+                "acc_z": -1.03345799446106
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4247176,
+        "longitude": -79.7692748,
+        "location": null,
+        "heading": 216.008209228516,
+        "address": "3091 Richview Blvd, Oakville, ON L6M 0A3, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172833.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7b0af7a1e22243bc781aa58eb87620638e3ab737b05a46c2aa0f77199cb2195c",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 84,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3237895965576,
+                "acc_y": 0.487697124481201,
+                "acc_z": -0.375207394361496
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-20T21:34:03.411847-04:00",
+        "comment": "",
+        "pci": 60,
+        "edited": "N",
+        "latitude": 43.4242574,
+        "longitude": -79.769728,
+        "location": null,
+        "heading": 206.030685424805,
+        "address": "3111 Richview Blvd, Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172838.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3dcab04b19765e6ecaace7022f2f05548a464f413c70aedade9b3428321d9666",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 85,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3045539855957,
+                "acc_y": 0.60852324962616,
+                "acc_z": -0.658951461315155
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4237762,
+        "longitude": -79.7699973,
+        "location": null,
+        "heading": 193.051162719727,
+        "address": "3127 Richview Blvd, Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172843.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=793ad79c06058bc945265c0e492872809aa825a813b31e69e880617ea49964ea",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 86,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2566814422607,
+                "acc_y": -0.340813279151917,
+                "acc_z": 1.27564656734467
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:29.178504-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4234146,
+        "longitude": -79.7700793,
+        "location": null,
+        "heading": 185.999008178711,
+        "address": "2153 Colonel William Pkwy, Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172848.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c19a11b1266a39417a397bef9b14e45102a6d6362b1fc220be7ef71e149d2987",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 87,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.66430854797363,
+                "acc_y": -2.03447127342224,
+                "acc_z": -2.66331505775452
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.42332,
+        "longitude": -79.7701064,
+        "location": null,
+        "heading": 253.98747253418,
+        "address": "Colonel William Pkwy + Stockbridge Ave (Richview Blvd), Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172853.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7166d9145f50c8f085790358de7cb79fbd5f9b2ce24da1a2fa951dd98b59cde3",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 88,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.78455257415771,
+                "acc_y": -0.276221930980682,
+                "acc_z": -1.31629574298859
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-19T17:21:48.617974-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4232853,
+        "longitude": -79.7704666,
+        "location": null,
+        "heading": 271.999542236328,
+        "address": "2156 Colonel William Pkwy, Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:28:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172858.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=44601771cf786d665e51346a4b450adfa260d9974eff0e600e6f27e59ec52d50",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 89,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.58568954467773,
+                "acc_y": 0.0418381616473198,
+                "acc_z": -1.10323321819305
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-16T07:41:30.085771-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4233503,
+        "longitude": -79.7711365,
+        "location": null,
+        "heading": 273.003143310547,
+        "address": "2178 Colonel William Pkwy, Oakville, ON L6M 0B8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:03-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17293.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=423ad3665b0db2dff0850d1a800d96ab6d094d47023f035dd0218cf75d0a3414",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 90,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.5333547592163,
+                "acc_y": -0.374206483364105,
+                "acc_z": -1.20460915565491
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4234205,
+        "longitude": -79.7718782,
+        "location": null,
+        "heading": 273.0,
+        "address": "2198 Colonel William Pkwy, Oakville, ON L6M 0B6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:08-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_17298.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3fd89a70167f992af9bf52b44982b644d9857585ae664a044b907fc1eacfac45",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 91,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.61674499511719,
+                "acc_y": -0.219580337405205,
+                "acc_z": -1.14632928371429
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:30.614853-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4234708,
+        "longitude": -79.7726121,
+        "location": null,
+        "heading": 273.000335693359,
+        "address": "Colonel William Pkwy + Dewsbury Dr, Oakville, ON L6M 0B7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:13-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172913.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7169d1bfdfd60b46cdde6f50614c91c1ac0b30f3e86988d49a2af3595e11d3e7",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 92,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.3931102752686,
+                "acc_y": -1.61846578121185,
+                "acc_z": -1.38507580757141
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4235158,
+        "longitude": -79.7733789,
+        "location": null,
+        "heading": 279.987274169922,
+        "address": "2229 Colonel William Pkwy, Oakville, ON L6M 0B6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:18-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172918.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2b767c23e94ad602a368c3e85262151fd24104a5adc68be80d185f9489c47537",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 93,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.2384357452393,
+                "acc_y": -1.04316592216492,
+                "acc_z": -1.55021727085114
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.423647,
+        "longitude": -79.7740546,
+        "location": null,
+        "heading": 302.890747070312,
+        "address": "3395 Stocksbridge Ave, Oakville, ON L6M 0B6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:24-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172924.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5ef20e1a9ce6a3688f31ca9602ef8156933d98315204a3f7752fe6ca55258302",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 94,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.6935338973999,
+                "acc_y": -0.169925048947334,
+                "acc_z": -0.98089611530304
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-16T07:41:30.820277-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.423978,
+        "longitude": -79.7745171,
+        "location": null,
+        "heading": 313.998962402344,
+        "address": null,
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:28-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172928.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d81e964cea4c211f2996c64f228b48e7af428e174782b3085cc38047ce5c1d4",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 95,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.52449798583984,
+                "acc_y": -0.0289753191173077,
+                "acc_z": -1.55065667629242
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4243856,
+        "longitude": -79.7750272,
+        "location": null,
+        "heading": 314.999725341797,
+        "address": "2250 Colonel William Pkwy, Oakville, ON L6M 0B6, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:33-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172933.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e7518a2d3e40dffe11f35da12de82a7001df8a8c11dca89ef7ba37c0eed6c985",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 96,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.75906467437744,
+                "acc_y": -0.063003309071064,
+                "acc_z": -0.834662735462189
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-21T23:53:30.703867-04:00",
+        "comment": "",
+        "pci": 80,
+        "edited": "Y",
+        "latitude": 43.4248113,
+        "longitude": -79.7755667,
+        "location": null,
+        "heading": 314.016937255859,
+        "address": "2281 Colonel William Pkwy, Oakville, ON L6M 0E8, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:38-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172938.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=480d0eeb991c4ae7998527cd589f1f4c76bebd8bd45d2a87b6bc39533606943b",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 97,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.80208396911621,
+                "acc_y": -0.429375499486923,
+                "acc_z": -0.76796293258667
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4252543,
+        "longitude": -79.7761399,
+        "location": null,
+        "heading": 314.999847412109,
+        "address": "2290 Colonel William Pkwy, Oakville, ON L6M 0J9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:43-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172943.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=845b59cc5f9b55d8c0fca807200acb71e492b2047ac0a98590a73de22ddddf6e",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 98,
+        "accelerometer_info": [
+            {
+                "acc_x": 10.1358060836792,
+                "acc_y": -0.0194623582065105,
+                "acc_z": -1.08574378490448
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 80,
+        "edited": "N",
+        "latitude": 43.4257074,
+        "longitude": -79.7767247,
+        "location": null,
+        "heading": 314.001129150391,
+        "address": "2319 Colonel William Pkwy, Oakville, ON L6M 0K7, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:48-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172948.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=be7642e62a7076eec653fd0f581067cc32d02d6273ee9fb6ce195798604363e2",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 99,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.7956657409668,
+                "acc_y": 0.0317094996571541,
+                "acc_z": -1.57555556297302
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": "2020-04-16T07:43:26.820890-04:00",
+        "comment": "",
+        "pci": 50,
+        "edited": "N",
+        "latitude": 43.4260486,
+        "longitude": -79.7773109,
+        "location": null,
+        "heading": 298.002777099609,
+        "address": "2322 Colonel William Pkwy, Oakville, ON L6M 0J9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:53-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172953.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7200061d8ea2e8cf8c43fb9eed6c51d38613668e5366489b3b8e67a124921eb4",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    },
+    {
+        "id": 100,
+        "accelerometer_info": [
+            {
+                "acc_x": 9.81958389282227,
+                "acc_y": -0.852221846580505,
+                "acc_z": -0.427332550287247
+            }
+        ],
+        "device_sn": {
+            "id": 1,
+            "city": {
+                "id": 4,
+                "name": "Muskoka"
+            },
+            "device_sn": "cf6676ba6c277415"
+        },
+        "detail_from_city": null,
+        "road_related_issues": [],
+        "damage_type": [],
+        "change_time": null,
+        "comment": "",
+        "pci": 20,
+        "edited": "Y",
+        "latitude": 43.42626,
+        "longitude": -79.7778974,
+        "location": null,
+        "heading": 304.994964599609,
+        "address": "2334 Colonel William Pkwy, Oakville, ON L6M 0J9, Canada",
+        "current_city": "Oakville",
+        "session": 17,
+        "app_version": 1.0,
+        "create_time": "2020-04-10T13:29:58-04:00",
+        "image": "https://iport-images.s3.amazonaws.com/media/Hamilton/2020/4/10/4380bd559d9b5f4e/2020410_172958.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZBHNJ4GA4IB4LEPF%2F20200622%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20200622T042141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc56fbfe7472593b5042819b1c4cbe7fbfbcb21b5c51a2393b5a37cc4cbef6aa",
+        "enabled": "Y",
+        "exported": "N",
+        "flag": "N",
+        "auditor": null
+    }
+]

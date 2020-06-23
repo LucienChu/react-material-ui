@@ -7,6 +7,7 @@ import IrisModal from "./cssComponent/panel/IrisModal/irisModal";
 import IrisPCIForm from "./components/irisPciForm/irisPciForm";
 import { LucienGrid } from "./components/grid/LucienGrid";
 import ImageInfo from "./components/irisPciForm/imageAndInfo/imageInfo";
+import IrisPCIFormHalfHalf from "./components/irisPCIFormHalfHalf/irisPCIFormHalfHalf";
 
 function App() {
   // return <PanelAnimation />;
@@ -43,7 +44,9 @@ function App() {
 
   // return <LucienGrid />;
 
-  return <ImageInfo />;
+  // return <ImageInfo />;
+
+  return <IrisPCIFormHalfHalf />;
 }
 
 export default App;
