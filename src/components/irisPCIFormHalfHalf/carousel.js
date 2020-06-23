@@ -4376,11 +4376,20 @@ export default function IrisCarousel({ style }) {
           <img
             src={r.image}
             alt="aaa"
-            style={{ maxHeight: "70vh", background: "#2f2f2f" }}
+            style={{
+              maxHeight: "60vh",
+              background: "#2f2f2f",
+              padding: "1rem",
+            }}
           />
-          {/* <p className="legend" style={{ background: "transparent" }}>
-            Legend 3
-          </p> */}
+          <p
+            className="legend"
+            style={{ background: "transparent", fontSize: "2rem" }}
+          >
+            <div style={{ textAlign: "left" }}>Date: {r.create_time}</div>
+            <div style={{ textAlign: "left" }}>From: {r.address}</div>
+            <div style={{ textAlign: "left" }}>To: {r.address}</div>
+          </p>
         </div>
       ))}
     </Carousel>

@@ -7,7 +7,6 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import TextField from "@material-ui/core/TextField";
 import { Checkbox } from "@material-ui/core";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
@@ -235,8 +234,8 @@ export default function ShoulderBTL() {
   const Selectors = ({ title, disabled }) => {
     return (
       <>
-        <TableCell>{title}</TableCell>
-        <TableCell>
+        <TableCell style={{ padding: "0.5rem" }}>{title}</TableCell>
+        <TableCell style={{ padding: "0.5rem" }}>
           <FormControl fullWidth>
             <Select
               disabled={disabled}
@@ -254,7 +253,7 @@ export default function ShoulderBTL() {
             </Select>
           </FormControl>
         </TableCell>
-        <TableCell>
+        <TableCell style={{ padding: "0.5rem" }}>
           <FormControl fullWidth>
             <Select
               disabled={disabled}

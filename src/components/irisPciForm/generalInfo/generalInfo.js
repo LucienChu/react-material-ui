@@ -42,7 +42,7 @@ const classes = [
   "S: SECONDARY",
 ];
 const rowStyle = {
-  padding: "0 2rem 0.5rem",
+  // padding: "0 2rem 0.5rem",
 };
 
 const INT_TESTER = new RegExp(/^-?\d*$/);
@@ -100,8 +100,8 @@ export default function GeneralInfo() {
   // };
 
   return (
-    <Grid container style={{ padding: "2rem" }}>
-      <Grid item container justify="space-between" style={rowStyle} spacing={2}>
+    <Grid container style={{ padding: "1rem" }}>
+      {/* <Grid item container justify="space-between" style={rowStyle} spacing={2}>
         <Grid item sm={6} xs={12}>
           <FormControl fullWidth>
             <InputLabel>From</InputLabel>
@@ -125,8 +125,9 @@ export default function GeneralInfo() {
           <Divider height={1} />
         </Grid>
       </Grid>
+       */}
       <Grid item container style={rowStyle} justify="space-between">
-        <Grid item container justify="space-between" md={5} sm={12} spacing={2}>
+        <Grid item container justify="space-between" sm={12} spacing={2}>
           <Grid item xs={6}>
             <FormControl fullWidth>
               <InputLabel>LHRS Begins</InputLabel>
@@ -158,7 +159,6 @@ export default function GeneralInfo() {
         <Grid
           item
           container
-          md={5}
           sm={12}
           justify="space-between"
           spacing={2}
@@ -204,7 +204,7 @@ export default function GeneralInfo() {
         justify="space-between"
       >
         <Grid item container justify="space-between" md={6}>
-          <Grid item xs={3}>
+          {/* <Grid item xs={3}>
             <input
               style={{ fontSize: "1.25rem" }}
               type="date"
@@ -215,8 +215,8 @@ export default function GeneralInfo() {
               max="2018-12-31"
               onChange={(value) => handleSelectedValue(value, setSelectedDate)}
             />
-          </Grid>
-          <Grid item xs={3}>
+          </Grid> */}
+          <Grid item xs={6}>
             <Grid item container alignItems="center">
               <Grid item xs={10}>
                 <FormControl fullWidth>
@@ -233,7 +233,7 @@ export default function GeneralInfo() {
             </Grid>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item xs={6}>
             <Grid item container alignItems="center">
               <Grid item xs={10}>
                 <FormControl fullWidth>
