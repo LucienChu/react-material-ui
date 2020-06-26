@@ -8,6 +8,8 @@ import IrisPCIForm from "./components/irisPciForm/irisPciForm";
 import { LucienGrid } from "./components/grid/LucienGrid";
 import ImageInfo from "./components/irisPciForm/imageAndInfo/imageInfo";
 import IrisPCIFormHalfHalf from "./components/irisPCIFormHalfHalf/irisPCIFormHalfHalf";
+import { Grid } from "@material-ui/core";
+import ImageWithModal from "./components/imageWithModal/imageWithModal";
 
 function App() {
   // return <PanelAnimation />;
@@ -46,7 +48,15 @@ function App() {
 
   // return <ImageInfo />;
 
-  return <IrisPCIFormHalfHalf />;
+  // return <IrisPCIFormHalfHalf />;
+  return (
+    <Grid container>
+      <Grid item xs={8} style={{ background: "green" }}></Grid>
+      <Grid item xs={3}>
+        <ImageWithModal src="https://www.gstatic.com/webp/gallery/3.jpg" />
+      </Grid>
+    </Grid>
+  );
 }
 
 export default App;
