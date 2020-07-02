@@ -11,6 +11,7 @@ import IrisPCIFormHalfHalf from "./components/irisPCIFormHalfHalf/irisPCIFormHal
 import { Grid } from "@material-ui/core";
 import ImageWithModal from "./components/imageWithModal/imageWithModal";
 import IrisHeader from "./components/IrisHeader/irisHeader";
+import { WC } from "./hoc/wrappedComponent";
 
 function App() {
   // return <PanelAnimation />;
@@ -59,7 +60,9 @@ function App() {
   //   </Grid>
   // );
 
-  return <IrisHeader />;
+  // return <IrisHeader />;
+
+  return <WC />;
 }
 
 export default App;
