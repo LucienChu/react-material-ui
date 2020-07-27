@@ -20,6 +20,8 @@ export default function IrisDriftZoom({
   });
 
   const initImageZoom = () => {
+    zoomDetailsPanel.current.style.backgroundImage = `url(${src})`;
+    zoomDetailsPanel.current.style.display = "none";
     lensRef.current.addEventListener("mousemove", moveLens);
     imageRef.current.addEventListener("mousemove", moveLens);
     /*and also for touch screens:*/
@@ -42,7 +44,7 @@ export default function IrisDriftZoom({
     const result = zoomDetailsPanel.current;
     const cx = result.offsetWidth / lens.offsetWidth;
     const cy = result.offsetHeight / lens.offsetHeight;
-    result.style.backgroundImage = `url(${src})`;
+    // result.style.backgroundImage = `url(${src})`;
 
     result.style.backgroundSize = `${image.offsetWidth * cx}px ${
       image.offsetHeight * cy
@@ -72,6 +74,7 @@ export default function IrisDriftZoom({
     result.style.backgroundPosition =
       "-" + lensX * cx + "px -" + lensY * cy + "px";
   };
+
   const getCursorPos = (e, image) => {
     let imageBound,
       x = 0,

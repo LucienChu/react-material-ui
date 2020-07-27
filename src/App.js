@@ -13,6 +13,7 @@ import ImageWithModal from "./components/imageWithModal/imageWithModal";
 import IrisHeader from "./components/IrisHeader/irisHeader";
 import { WC } from "./hoc/wrappedComponent";
 import IrisDriftZoom from "./components/irisDriftZoom/irisDriftZoom";
+import IrisDriftZoomCircle from "./components/irisDriftZoomCircle/irisDriftZoomCircle";
 
 function App() {
   // return <PanelAnimation />;
@@ -66,7 +67,7 @@ function App() {
   // return <WC />;
   return (
     <div style={{ display: "flex" }}>
-      <IrisDriftZoom
+      <IrisDriftZoomCircle
         src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
         imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
       />
