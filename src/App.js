@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import PanelAnimation from "./cssComponent/panel/panelAnimation";
 import ModalPage from "./components/modalPage/modalPage";
 import IrisModal from "./cssComponent/panel/IrisModal/irisModal";
@@ -12,6 +12,7 @@ import { Grid } from "@material-ui/core";
 import ImageWithModal from "./components/imageWithModal/imageWithModal";
 import IrisHeader from "./components/IrisHeader/irisHeader";
 import { WC } from "./hoc/wrappedComponent";
+import IrisDriftZoom from "./components/irisDriftZoom/irisDriftZoom";
 
 function App() {
   // return <PanelAnimation />;
@@ -62,7 +63,16 @@ function App() {
 
   // return <IrisHeader />;
 
-  return <WC />;
+  // return <WC />;
+  return (
+    <div style={{ display: "flex" }}>
+      <IrisDriftZoom
+        src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
+        imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
+      />
+      <span>hello world</span>
+    </div>
+  );
 }
 
 export default App;
