@@ -70,6 +70,8 @@ function App() {
       <IrisDriftZoomCircle
         src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
         imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
+        // zoomLevel={3}
+        breakPoint={900}
       />
       <span>hello world</span>
     </div>
