@@ -14,6 +14,9 @@ import IrisHeader from "./components/IrisHeader/irisHeader";
 import { WC } from "./hoc/wrappedComponent";
 import IrisDriftZoom from "./components/irisDriftZoom/irisDriftZoom";
 import IrisDriftZoomCircle from "./components/irisDriftZoomCircle/irisDriftZoomCircle";
+import SlideBar from "./components/slidBar/slideBar";
+import TestRender from "./components/testRender/testRender";
+import AsynFetchErrorHandling from "./components/asyncFetchErrorHandling/asynFetchErrorHandling";
 
 function App() {
   // return <PanelAnimation />;
@@ -65,17 +68,28 @@ function App() {
   // return <IrisHeader />;
 
   // return <WC />;
-  return (
-    <div style={{ display: "flex" }}>
-      <IrisDriftZoomCircle
-        src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
-        imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
-        // zoomLevel={3}
-        breakPoint={900}
-      />
-      <span>hello world</span>
-    </div>
-  );
+  // return (
+  //   <div style={{ display: "flex" }}>
+  //     <IrisDriftZoomCircle
+  //       src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
+  //       imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
+  //       // zoomLevel={3}
+  //       breakPoint={900}
+  //     />
+  //     <span>hello world</span>
+  //   </div>
+  // );
+  // return (
+  //   <div>
+  //     {console.log("app rendered")}
+  //     <TestRender />
+  //   </div>
+  // );
+
+  return <AsynFetchErrorHandling />;
+
+  // right hand side slide bar
+  // return <SlideBar />;
 }
 
 export default App;

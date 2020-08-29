@@ -105,6 +105,7 @@ export default function IrisDriftZoom({
     lens.style.left = cursorX - lensHalfWidth + "px";
     lens.style.top = cursorY - lensHalfHeigh + "px";
     /*display what the lens "sees":*/
+    lens.style.zIndex = 100;
     lens.style.backgroundPosition =
       "-" +
       (cursorX * zoomLevel - lensHalfWidth) +
@@ -218,7 +219,9 @@ export default function IrisDriftZoom({
           alt="iris drift zoom"
         />
       </div>
-      <div ref={zoomDetailsPanel} className={styles.zoomDetailsPanel}></div>
+      {/* <div ref={zoomDetailsPanel} className={styles.zoomDetailsPanel}>
+        abcde
+      </div> */}
     </div>
   );
 }
