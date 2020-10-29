@@ -14,17 +14,14 @@ import IrisHeader from "./components/IrisHeader/irisHeader";
 import { WC } from "./hoc/wrappedComponent";
 import IrisDriftZoom from "./components/irisDriftZoom/irisDriftZoom";
 import IrisDriftZoomCircle from "./components/irisDriftZoomCircle/irisDriftZoomCircle";
-<<<<<<< HEAD
 import LucienKeyEvent from "./components/lucienKeyEvent/lucienKeyEvent";
 import { IrisMutiSelect } from "./components/irisMultiSelect/IrisMutiSelect";
 import FixPosition from "./components/fixePosition/FixPosition";
 import IrisTabs from "./components/irisTabs/IrisTabs";
 import LucienCanvas from "./components/LucienCanvas/LucienCanvas";
-=======
 import SlideBar from "./components/slidBar/slideBar";
 import TestRender from "./components/testRender/testRender";
 import AsynFetchErrorHandling from "./components/asyncFetchErrorHandling/asynFetchErrorHandling";
->>>>>>> cd4fbfc29520723af62102eb1e47f5462540dbba
 
 const allElements = ["Apple", "Banana", "None", "all Okay", "番石榴"];
 function App() {
@@ -89,11 +86,9 @@ function App() {
   //     <span>hello world</span>
   //   </div>
   // );
-<<<<<<< HEAD
   // return <LucienKeyEvent />;
   // return <IrisTabs width={400} />;
   return <LucienCanvas />;
-=======
   // return (
   //   <div>
   //     {console.log("app rendered")}
@@ -105,7 +100,6 @@ function App() {
 
   // right hand side slide bar
   // return <SlideBar />;
->>>>>>> cd4fbfc29520723af62102eb1e47f5462540dbba
 }
 
 export default App;
