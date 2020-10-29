@@ -1,0 +1,20 @@
+.drawer {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  top: 50%;
+  background-color: green;
+  width: 100px;
+  height: 500px;
+  transform: translateY(-50%);
+  transition: all 0.5s;
+  &.hide {
+    width: 0;
+  }
+  &.show {
+    width: 100px;
+  }
+  a {
+    overflow: hidden;
+  }
+}
