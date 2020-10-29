@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 // import "./App.css";
 import PanelAnimation from "./cssComponent/panel/panelAnimation";
@@ -14,8 +14,15 @@ import IrisHeader from "./components/IrisHeader/irisHeader";
 import { WC } from "./hoc/wrappedComponent";
 import IrisDriftZoom from "./components/irisDriftZoom/irisDriftZoom";
 import IrisDriftZoomCircle from "./components/irisDriftZoomCircle/irisDriftZoomCircle";
+import LucienKeyEvent from "./components/lucienKeyEvent/lucienKeyEvent";
+import { IrisMutiSelect } from "./components/irisMultiSelect/IrisMutiSelect";
+import FixPosition from "./components/fixePosition/FixPosition";
+import IrisTabs from "./components/irisTabs/IrisTabs";
+import LucienCanvas from "./components/LucienCanvas/LucienCanvas";
 
+const allElements = ["Apple", "Banana", "None", "all Okay", "番石榴"];
 function App() {
+  const [selectedValues, setSelectedValues] = useState(["None"]);
   // return <PanelAnimation />;
   // return (
   //   <div>
@@ -65,17 +72,20 @@ function App() {
   // return <IrisHeader />;
 
   // return <WC />;
-  return (
-    <div style={{ display: "flex" }}>
-      <IrisDriftZoomCircle
-        src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
-        imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
-        // zoomLevel={3}
-        breakPoint={900}
-      />
-      <span>hello world</span>
-    </div>
-  );
+  // return (
+  //   <div style={{ display: "flex" }}>
+  //     <IrisDriftZoomCircle
+  //       src="http://assets.imgix.net/unsplash/lighthouse.jpg?w=400&ch=DPR&dpr=2"
+  //       imageStyle={{ width: "600px", height: "600px", overflow: "hidden" }}
+  //       // zoomLevel={3}
+  //       breakPoint={900}
+  //     />
+  //     <span>hello world</span>
+  //   </div>
+  // );
+  // return <LucienKeyEvent />;
+  // return <IrisTabs width={400} />;
+  return <LucienCanvas />;
 }
 
 export default App;
