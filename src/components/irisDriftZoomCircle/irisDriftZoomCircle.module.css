@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.imgZoomContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.imgZoomLen {
+  position: absolute;
+  border: 3px solid #ffffff;
+  z-index: 100;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
+
+.imageContainer {
+  max-width: 50vw;
+  cursor: none;
+}
+/*# sourceMappingURL=irisDriftZoomCircle.module.css.map */

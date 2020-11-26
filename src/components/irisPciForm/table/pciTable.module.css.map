@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,YAAY,EAAE,WAAW;EACzB,SAAS,EAAE,cAAc;CAC1B",
+    "sources": [
+        "pciTable.module.scss"
+    ],
+    "names": [],
+    "file": "pciTable.module.css"
+}

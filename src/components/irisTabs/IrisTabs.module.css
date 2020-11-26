@@ -1,0 +1,45 @@
+/* Style the tab */
+.tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+/* Style the buttons inside the tab */
+.tabButton {
+  background-color: inherit;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 17px;
+  /* Change background color of buttons on hover */
+}
+
+.tabButton:hover {
+  background-color: greenyellow;
+}
+
+/* Style the tab content */
+.tabContent {
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 100%;
+}
+
+.active {
+  background-color: greenyellow;
+}
+/*# sourceMappingURL=IrisTabs.module.css.map */

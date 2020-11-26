@@ -1,0 +1,81 @@
+.nav {
+  display: block;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navList {
+  vertical-align: top;
+  display: inline-block;
+  -webkit-box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
+          box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
+  border-radius: 6px;
+}
+
+.navList a {
+  display: block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  text-shadow: 0 -1px 0 #000;
+  position: relative;
+}
+
+.navList li {
+  position: relative;
+}
+
+.navList li:hover {
+  border-bottom-color: orange;
+}
+
+.navList > li {
+  float: left;
+  border-bottom: 4px #aaa solid;
+  margin-right: 1px;
+}
+
+.navList li:hover > a {
+  color: orange;
+}
+
+.navList > li:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.navList > li:first-child > a {
+  border-radius: 4px 0 0 0;
+}
+
+.navList > li:last-child {
+  border-radius: 0 0 4px 0;
+  margin-right: 0;
+}
+
+.navList > li:last-child > a {
+  border-radius: 0 4px 0 0;
+}
+
+.navList li li a {
+  margin-top: 1px;
+}
+
+.navList li a:first-child:nth-last-child(2):before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  top: 50%;
+  right: 5px;
+}
+/*# sourceMappingURL=irisSubmenu.module.css.map */

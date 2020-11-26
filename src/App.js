@@ -22,6 +22,7 @@ import LucienCanvas from "./components/LucienCanvas/LucienCanvas";
 import SlideBar from "./components/slidBar/slideBar";
 import TestRender from "./components/testRender/testRender";
 import AsynFetchErrorHandling from "./components/asyncFetchErrorHandling/asynFetchErrorHandling";
+import ReactDraggable from "./components/reactDraggable/ReactDraggable";
 
 const allElements = ["Apple", "Banana", "None", "all Okay", "番石榴"];
 function App() {
@@ -88,7 +89,7 @@ function App() {
   // );
   // return <LucienKeyEvent />;
   // return <IrisTabs width={400} />;
-  return <LucienCanvas />;
+  // return <LucienCanvas />;
   // return (
   //   <div>
   //     {console.log("app rendered")}
@@ -96,7 +97,7 @@ function App() {
   //   </div>
   // );
 
-  return <AsynFetchErrorHandling />;
+  return <ReactDraggable />;
 
   // right hand side slide bar
   // return <SlideBar />;

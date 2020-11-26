@@ -1,0 +1,26 @@
+.drawer {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  top: 50%;
+  background-color: green;
+  width: 100px;
+  height: 500px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.drawer.hide {
+  width: 0;
+}
+
+.drawer.show {
+  width: 100px;
+}
+
+.drawer a {
+  overflow: hidden;
+}
+/*# sourceMappingURL=slideBar.module.css.map */

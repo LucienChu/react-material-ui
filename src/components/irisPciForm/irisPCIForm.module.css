@@ -1,0 +1,10 @@
+.formWrapper > * {
+  max-width: 1440px;
+}
+
+.formRow {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=irisPCIForm.module.css.map */
