@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import logo from "./logo.svg";
 // import "./App.css";
 import PanelAnimation from "./cssComponent/panel/panelAnimation";
@@ -22,10 +22,43 @@ import LucienCanvas from "./components/LucienCanvas/LucienCanvas";
 import SlideBar from "./components/slidBar/slideBar";
 import TestRender from "./components/testRender/testRender";
 import AsynFetchErrorHandling from "./components/asyncFetchErrorHandling/asynFetchErrorHandling";
+<<<<<<< HEAD
 import ReactDraggable from "./components/reactDraggable/ReactDraggable";
+=======
+import ParentChildKeyEvent from "./components/parentChildKeyEvents/ParentChildKeyEvent";
+>>>>>>> 71ce3db90c25b376457038f03c6049039c46dbed
 
 const allElements = ["Apple", "Banana", "None", "all Okay", "番石榴"];
 function App() {
+  const keyEvent = (event) => {
+    const currentTarget = event.currentTarget;
+    const eventTarget = event.target;
+    console.log("currentTarget", currentTarget);
+    console.log("eventTarget", eventTarget);
+    console.log("currentTarget === eventTarget", currentTarget === eventTarget);
+    if (event.target === event.currentTarget) {
+      console.log("parent is listen");
+    }
+  };
+
+  const appRef = useRef(null);
+
+  // useEffect(() => {
+  //   document.addEventListener("keydown", keyEvent, true);
+
+  //   return () => {
+  //     document.removeEventListener("keydown", keyEvent, true);
+  //   };
+  // }, []);
+
+  useEffect(() => {
+    if (appRef) {
+      document.body.addEventListener("keydown", keyEvent);
+    }
+    return () => {
+      document.body.removeEventListener("keydown", keyEvent);
+    };
+  }, [appRef]);
   const [selectedValues, setSelectedValues] = useState(["None"]);
   // return <PanelAnimation />;
   // return (
@@ -97,10 +130,20 @@ function App() {
   //   </div>
   // );
 
+<<<<<<< HEAD
   return <ReactDraggable />;
+=======
+  // return <AsynFetchErrorHandling />;
+>>>>>>> 71ce3db90c25b376457038f03c6049039c46dbed
 
   // right hand side slide bar
   // return <SlideBar />;
+
+  return (
+    <div id="app" ref={appRef}>
+      <ParentChildKeyEvent />
+    </div>
+  );
 }
 
 export default App;
