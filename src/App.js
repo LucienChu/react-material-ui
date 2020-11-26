@@ -22,11 +22,7 @@ import LucienCanvas from "./components/LucienCanvas/LucienCanvas";
 import SlideBar from "./components/slidBar/slideBar";
 import TestRender from "./components/testRender/testRender";
 import AsynFetchErrorHandling from "./components/asyncFetchErrorHandling/asynFetchErrorHandling";
-<<<<<<< HEAD
 import ReactDraggable from "./components/reactDraggable/ReactDraggable";
-=======
-import ParentChildKeyEvent from "./components/parentChildKeyEvents/ParentChildKeyEvent";
->>>>>>> 71ce3db90c25b376457038f03c6049039c46dbed
 
 const allElements = ["Apple", "Banana", "None", "all Okay", "番石榴"];
 function App() {
@@ -130,20 +126,16 @@ function App() {
   //   </div>
   // );
 
-<<<<<<< HEAD
   return <ReactDraggable />;
-=======
-  // return <AsynFetchErrorHandling />;
->>>>>>> 71ce3db90c25b376457038f03c6049039c46dbed
 
   // right hand side slide bar
   // return <SlideBar />;
 
-  return (
-    <div id="app" ref={appRef}>
-      <ParentChildKeyEvent />
-    </div>
-  );
+  // return (
+  //   <div id="app" ref={appRef}>
+  //     <ParentChildKeyEvent />
+  //   </div>
+  // );
 }
 
 export default App;
